@@ -1,0 +1,233 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.26256,
+          25.600061
+        ]
+      },
+      "properties": {
+        "sensor_index": 33027,
+        "name": "Lagos del Bosque",
+        "pm1_0": 8.9,
+        "pm2_5": 12.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3976,
+          25.6665
+        ]
+      },
+      "properties": {
+        "sensor_index": 34441,
+        "name": "Callejon de los Ayala",
+        "pm1_0": 2.4,
+        "pm2_5": 3.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3472,
+          25.641743
+        ]
+      },
+      "properties": {
+        "sensor_index": 34499,
+        "name": "San Patricio #106",
+        "pm1_0": 0.0,
+        "pm2_5": 0.0,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.316124,
+          25.61638
+        ]
+      },
+      "properties": {
+        "sensor_index": 42211,
+        "name": "RF",
+        "pm1_0": 3.6,
+        "pm2_5": 5.5,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.399216,
+          25.637255
+        ]
+      },
+      "properties": {
+        "sensor_index": 45769,
+        "name": "Huascaran",
+        "pm1_0": 3.5,
+        "pm2_5": 5.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.38512,
+          25.646965
+        ]
+      },
+      "properties": {
+        "sensor_index": 71091,
+        "name": "JNAirCare",
+        "pm1_0": 4.8,
+        "pm2_5": 7.2,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.37162,
+          25.662413
+        ]
+      },
+      "properties": {
+        "sensor_index": 189447,
+        "name": "R\u00cdO AMAZONAS - CALZADA NORTE",
+        "pm1_0": 8.0,
+        "pm2_5": 11.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.33364,
+          25.64684
+        ]
+      },
+      "properties": {
+        "sensor_index": 189469,
+        "name": "Hospital Zambran Hellion TecSalud",
+        "pm1_0": 6.7,
+        "pm2_5": 9.8,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.18215,
+          25.77774
+        ]
+      },
+      "properties": {
+        "sensor_index": 203705,
+        "name": "Miguel Alem\u00e1n",
+        "pm1_0": 4.5,
+        "pm2_5": 4.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.291214,
+          25.651268
+        ]
+      },
+      "properties": {
+        "sensor_index": 227879,
+        "name": "Rectoria",
+        "pm1_0": 9.8,
+        "pm2_5": 12.9,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.357025,
+          25.669565
+        ]
+      },
+      "properties": {
+        "sensor_index": 227965,
+        "name": "PrepaTec EGS Aulas 2",
+        "pm1_0": 18.8,
+        "pm2_5": 27.0,
+        "AQ PM 2.5": "Aceptable",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.28651,
+          25.654228
+        ]
+      },
+      "properties": {
+        "sensor_index": 228383,
+        "name": "Estadio Banorte",
+        "pm1_0": 9.4,
+        "pm2_5": 12.1,
+        "AQ PM 2.5": "Bueno",
+        "AQ PM 1": "Bueno",
+        "timestamp": "2025-08-03T16:00:07.675192Z"
+      }
+    }
+  ]
+}
