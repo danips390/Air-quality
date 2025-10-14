@@ -7,7 +7,7 @@ import geojson
 import shapefile
 from shapely.geometry import shape, Point
 from scipy.spatial import Delaunay
-from datetime import datetime
+from datetime import datetime, timezone # Importar timezone
 
 # Parámetros
 API_KEY = os.getenv("API_KEY_PURPLEAIR")
@@ -43,9 +43,9 @@ def clasificar_calidad_aire_pm25(pm25):
         return "Bueno"
     elif pm25 <= 33:
         return "Aceptable"
-    elif pm25 <=79:
+    elif pm25 <= 79:
         return "Mala"
-    elif pm25 <=130:
+    elif pm25 <= 130:
         return "Muy alta"
     else:
         return "Extremadamente mala"
@@ -56,46 +56,48 @@ def clasificar_calidad_aire_pm10(pm10):
         return "Bueno"
     elif pm10 <= 60:
         return "Aceptable"
-    elif pm10 <=132:
+    elif pm10 <= 132:
         return "Mala"
-    elif pm10 <=213:
+    elif pm10 <= 213:
         return "Muy alta"
     else:
         return "Extremadamente mala"
 
-def crear_geojson(df):
+# MODIFICACIÓN 1: Se añade el parámetro 'timestamp' a la función
+def crear_geojson(df, timestamp):
     features = []
     puntos = []
-    valores = []
-    timestamp = datetime.utcnow().isoformat() + "Z"
+    valores_pm25 = []
+    valores_pm10 = []
 
     historico_path = "historico.csv"
     datos_historicos = []
 
     for _, fila in df.iterrows():
-        pm1, pm25 = consultar_sensor(fila['sensor_index'])
-        if pm1 is not None and pm25 is not None:
+        pm10, pm25 = consultar_sensor(fila['sensor_index'])
+        if pm10 is not None and pm25 is not None:
             props = {
                 "sensor_index": fila['sensor_index'],
                 "name": fila.get('name', ''),
-                "pm1_0": pm1,
+                "pm1_0": pm10,
                 "pm2_5": pm25,
                 "AQ PM 2.5": clasificar_calidad_aire_pm25(pm25),
-                "AQ PM 1": clasificar_calidad_aire_pm10(pm1),
-                "timestamp": timestamp
+                "AQ PM 10": clasificar_calidad_aire_pm10(pm10),
+                "timestamp": timestamp # Se usa el timestamp recibido
             }
             coords = (fila['longitude'], fila['latitude'])
             point = geojson.Point(coords)
             features.append(geojson.Feature(geometry=point, properties=props))
             puntos.append(coords)
-            valores.append(pm25)
+            valores_pm25.append(pm25)
+            valores_pm10.append(pm10)
 
             # Añadir al historial
             datos_historicos.append({
                 "sensor_index": fila['sensor_index'],
                 "name": fila.get('name', ''),
-                "timestamp": timestamp,
-                "pm1_0": pm1,
+                "timestamp": timestamp, # Se usa el timestamp recibido
+                "pm1_0": pm10,
                 "pm2_5": pm25
             })
 
@@ -103,30 +105,20 @@ def crear_geojson(df):
     feature_collection = geojson.FeatureCollection(features)
     with open(SALIDA_GEOJSON_SENSORES, 'w', encoding='utf-8') as f:
         geojson.dump(feature_collection, f, indent=2)
-
     print(f"GeoJSON de sensores generado: {SALIDA_GEOJSON_SENSORES}")
 
     # Guardar o actualizar el histórico
     df_historico_nuevo = pd.DataFrame(datos_historicos)
-
     if os.path.exists(historico_path):
         df_existente = pd.read_csv(historico_path)
         df_total = pd.concat([df_existente, df_historico_nuevo], ignore_index=True)
     else:
         df_total = df_historico_nuevo
-
     df_total.to_csv(historico_path, index=False, encoding='utf-8')
     print(f"Histórico actualizado: {historico_path}")
 
-    return np.array(puntos), np.array(valores)
+    return np.array(puntos), np.array(valores_pm25), np.array(valores_pm10)
 
-
-    feature_collection = geojson.FeatureCollection(features)
-    with open(SALIDA_GEOJSON_SENSORES, 'w', encoding='utf-8') as f:
-        geojson.dump(feature_collection, f, indent=2)
-
-    print(f"GeoJSON de sensores generado: {SALIDA_GEOJSON_SENSORES}")
-    return np.array(puntos), np.array(valores)
 
 def cargar_datos_colonias_shp(archivo_shp_colonias):
     sf = shapefile.Reader(archivo_shp_colonias, encoding='utf-8')
@@ -152,7 +144,8 @@ def interpolar_lineal(punto, triangulo_indices, puntos, valores):
     except np.linalg.LinAlgError:
         return None
 
-def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores_puntos, contaminante):
+# MODIFICACIÓN 2: Se añade el parámetro 'timestamp' a la función
+def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores_puntos, contaminante, timestamp):
     try:
         tri = Delaunay(puntos_data)
     except ValueError as e:
@@ -184,44 +177,36 @@ def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores
             else:
                 colonia['valor_interpolado'] = np.nan
 
-    # Crear GeoJSON
+    # Crear GeoJSON con metadatos
     geo_json_data = {
         "type": "FeatureCollection",
+        # Aquí se añade la fecha y hora de ejecución
+        "metadata": {
+            "ultima_ejecucion_utc": timestamp
+        },
         "features": []
     }
 
     for colonia in colonias_data:
         geom = colonia['geometry']
-
         if not geom.is_valid or geom.is_empty:
             continue
 
         try:
             if geom.geom_type == 'Polygon':
                 coordinates = [list(geom.exterior.coords)]
-                geometry = {
-                    "type": "Polygon",
-                    "coordinates": coordinates
-                }
+                geometry = {"type": "Polygon", "coordinates": coordinates}
             elif geom.geom_type == 'MultiPolygon':
-                coordinates = []
-                for p in geom.geoms:
-                    coordinates.append([list(p.exterior.coords)])
-                geometry = {
-                    "type": "MultiPolygon",
-                    "coordinates": coordinates
-                }
+                coordinates = [[list(p.exterior.coords)] for p in geom.geoms]
+                geometry = {"type": "MultiPolygon", "coordinates": coordinates}
             else:
                 continue
         except Exception:
             continue
 
         valor_interpolado = colonia.get('valor_interpolado')
-        if valor_interpolado is not None and not np.isnan(valor_interpolado):
-            valor_export = round(float(valor_interpolado), 2)
-        else:
-            valor_export = None
-
+        valor_export = round(float(valor_interpolado), 2) if valor_interpolado is not None and not np.isnan(valor_interpolado) else None
+        
         feature = {
             "type": "Feature",
             "geometry": geometry,
@@ -231,7 +216,6 @@ def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores
                 "AQ": clasificar_calidad_aire_pm25(valor_export) if contaminante == 'pm2_5' else clasificar_calidad_aire_pm10(valor_export)
             }
         }
-
         geo_json_data["features"].append(feature)
 
     with open(nombre_archivo, "w", encoding="utf-8") as f:
@@ -243,10 +227,21 @@ def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores
 # ------------------ Ejecución Principal ------------------ #
 
 if __name__ == '__main__':
-    # Sensore
+    # MODIFICACIÓN 3: Se genera un único timestamp para toda la ejecución
+    timestamp_ejecucion = datetime.now(timezone.utc).isoformat()
+    print(f"Iniciando ejecución: {timestamp_ejecucion}")
+    
+    # Sensores
     df_sensores = leer_csv(CSV_FILE)
-    puntos_data, valores_puntos = crear_geojson(df_sensores)
-    #Colonias
-    colonias_data = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS)
-    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM25, colonias_data, puntos_data, valores_puntos, 'pm2_5')
-    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM10, colonias_data, puntos_data, valores_puntos, 'pm1_0')
+    # Se pasa el timestamp a la función y se reciben los valores de PM2.5 y PM10 por separado
+    puntos_data, valores_pm25, valores_pm10 = crear_geojson(df_sensores, timestamp_ejecucion)
+    
+    # Colonias
+    colonias_data_pm25 = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS)
+    colonias_data_pm10 = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS) # Cargar una copia para PM10
+
+    # Se pasa el timestamp a las funciones de generación de GeoJSON
+    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM25, colonias_data_pm25, puntos_data, valores_pm25, 'pm2_5', timestamp_ejecucion)
+    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM10, colonias_data_pm10, puntos_data, valores_pm10, 'pm10', timestamp_ejecucion)
+    
+    print("Proceso completado.")
