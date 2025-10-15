@@ -7,7 +7,7 @@ import geojson
 import shapefile
 from shapely.geometry import shape, Point
 from scipy.spatial import Delaunay
-from datetime import datetime, timezone # Importar timezone
+from datetime import datetime, timezone  # Importar timezone
 
 # Parámetros
 API_KEY = os.getenv("API_KEY_PURPLEAIR")
@@ -22,24 +22,32 @@ CAMPOS = 'pm1.0,pm2.5'
 
 def leer_csv(ruta):
     df = pd.read_csv(ruta)
+    # Se asegura que existan lat/lon y sensor_index
     df = df.dropna(subset=['latitude', 'longitude', 'sensor_index'])
     df['sensor_index'] = df['sensor_index'].astype(int)
     return df
 
 def consultar_sensor(sensor_index):
     url = f'https://api.purpleair.com/v1/sensors/{sensor_index}?fields={CAMPOS}'
-    headers = {'X-API-Key': API_KEY}
-    response = requests.get(url, headers=headers)
+    headers = {'X-API-Key': API_KEY} if API_KEY else {}
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+    except Exception:
+        return None, None
     if response.status_code == 200:
         data = response.json().get("sensor", {})
+        # Devuelve pm1.0 y pm2.5 (o None si no vienen)
         return data.get("pm1.0"), data.get("pm2.5")
     return None, None
 
-
 def clasificar_calidad_aire_pm25(pm25):
-    if pm25 is None or np.isnan(pm25):
+    if pm25 is None or (isinstance(pm25, float) and np.isnan(pm25)):
         return "Sin datos"
-    elif pm25 <= 15:
+    try:
+        pm25 = float(pm25)
+    except Exception:
+        return "Sin datos"
+    if pm25 <= 15:
         return "Bueno"
     elif pm25 <= 33:
         return "Aceptable"
@@ -49,10 +57,15 @@ def clasificar_calidad_aire_pm25(pm25):
         return "Muy alta"
     else:
         return "Extremadamente mala"
+
 def clasificar_calidad_aire_pm10(pm10):
-    if pm10 is None or np.isnan(pm10):
+    if pm10 is None or (isinstance(pm10, float) and np.isnan(pm10)):
         return "Sin datos"
-    elif pm10 <= 45:
+    try:
+        pm10 = float(pm10)
+    except Exception:
+        return "Sin datos"
+    if pm10 <= 45:
         return "Bueno"
     elif pm10 <= 60:
         return "Aceptable"
@@ -74,29 +87,33 @@ def crear_geojson(df, timestamp):
     datos_historicos = []
 
     for _, fila in df.iterrows():
+        # consultar_sensor devuelve (pm1.0, pm2.5)
         pm10, pm25 = consultar_sensor(fila['sensor_index'])
+        # Nota: en tu código original pm10 toma pm1.0 y pm25 toma pm2.5.
+        # Si esperas PM10 real, asegúrate de que la API lo provea.
         if pm10 is not None and pm25 is not None:
             props = {
-                "sensor_index": fila['sensor_index'],
+                "sensor_index": int(fila['sensor_index']),
                 "name": fila.get('name', ''),
                 "pm1_0": pm10,
                 "pm2_5": pm25,
                 "AQ PM 2.5": clasificar_calidad_aire_pm25(pm25),
                 "AQ PM 10": clasificar_calidad_aire_pm10(pm10),
-                "timestamp": timestamp # Se usa el timestamp recibido
+                "timestamp": timestamp  # Se usa el timestamp recibido
             }
-            coords = (fila['longitude'], fila['latitude'])
+            coords = (float(fila['longitude']), float(fila['latitude']))
             point = geojson.Point(coords)
             features.append(geojson.Feature(geometry=point, properties=props))
             puntos.append(coords)
-            valores_pm25.append(pm25)
-            valores_pm10.append(pm10)
+            # valores que se interpolarán
+            valores_pm25.append(float(pm25))
+            valores_pm10.append(float(pm10))
 
             # Añadir al historial
             datos_historicos.append({
-                "sensor_index": fila['sensor_index'],
+                "sensor_index": int(fila['sensor_index']),
                 "name": fila.get('name', ''),
-                "timestamp": timestamp, # Se usa el timestamp recibido
+                "timestamp": timestamp,  # Se usa el timestamp recibido
                 "pm1_0": pm10,
                 "pm2_5": pm25
             })
@@ -110,8 +127,11 @@ def crear_geojson(df, timestamp):
     # Guardar o actualizar el histórico
     df_historico_nuevo = pd.DataFrame(datos_historicos)
     if os.path.exists(historico_path):
-        df_existente = pd.read_csv(historico_path)
-        df_total = pd.concat([df_existente, df_historico_nuevo], ignore_index=True)
+        try:
+            df_existente = pd.read_csv(historico_path)
+            df_total = pd.concat([df_existente, df_historico_nuevo], ignore_index=True)
+        except Exception:
+            df_total = df_historico_nuevo
     else:
         df_total = df_historico_nuevo
     df_total.to_csv(historico_path, index=False, encoding='utf-8')
@@ -119,12 +139,12 @@ def crear_geojson(df, timestamp):
 
     return np.array(puntos), np.array(valores_pm25), np.array(valores_pm10)
 
-
 def cargar_datos_colonias_shp(archivo_shp_colonias):
     sf = shapefile.Reader(archivo_shp_colonias, encoding='utf-8')
     colonias = []
     for shape_record in sf.iterShapeRecords():
         geometry = shape(shape_record.shape.__geo_interface__)
+        # Se asume que el nombre está en el primer campo del registro
         nombre_colonia = shape_record.record[0]
         colonias.append({'nombre': nombre_colonia, 'geometry': geometry})
     return colonias
@@ -148,9 +168,9 @@ def interpolar_lineal(punto, triangulo_indices, puntos, valores):
 def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores_puntos, contaminante, timestamp):
     try:
         tri = Delaunay(puntos_data)
-    except ValueError as e:
+    except Exception as e:
         print(f"Error en la triangulación de Delaunay: {e}")
-        return
+        tri = None
 
     for colonia in colonias_data:
         geom = colonia['geometry']
@@ -166,6 +186,10 @@ def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores
         if valores_en_colonia:
             colonia['valor_interpolado'] = float(np.mean(valores_en_colonia))
         else:
+            if tri is None:
+                colonia['valor_interpolado'] = np.nan
+                continue
+
             centroide = geom.centroid
             punto_centroide = np.array([centroide.x, centroide.y])
             simplex_index = tri.find_simplex(punto_centroide)
@@ -180,7 +204,6 @@ def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores
     # Crear GeoJSON con metadatos
     geo_json_data = {
         "type": "FeatureCollection",
-        # Aquí se añade la fecha y hora de ejecución
         "metadata": {
             "ultima_ejecucion_utc": timestamp
         },
@@ -206,7 +229,7 @@ def generar_geojson_colonias(nombre_archivo, colonias_data, puntos_data, valores
 
         valor_interpolado = colonia.get('valor_interpolado')
         valor_export = round(float(valor_interpolado), 2) if valor_interpolado is not None and not np.isnan(valor_interpolado) else None
-        
+
         feature = {
             "type": "Feature",
             "geometry": geometry,
@@ -230,18 +253,90 @@ if __name__ == '__main__':
     # MODIFICACIÓN 3: Se genera un único timestamp para toda la ejecución
     timestamp_ejecucion = datetime.now(timezone.utc).isoformat()
     print(f"Iniciando ejecución: {timestamp_ejecucion}")
-    
+
     # Sensores
     df_sensores = leer_csv(CSV_FILE)
     # Se pasa el timestamp a la función y se reciben los valores de PM2.5 y PM10 por separado
     puntos_data, valores_pm25, valores_pm10 = crear_geojson(df_sensores, timestamp_ejecucion)
-    
+
     # Colonias
     colonias_data_pm25 = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS)
-    colonias_data_pm10 = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS) # Cargar una copia para PM10
+    colonias_data_pm10 = cargar_datos_colonias_shp(ARCHIVO_SHP_COLONIAS)  # Cargar una copia para PM10
 
     # Se pasa el timestamp a las funciones de generación de GeoJSON
-    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM25, colonias_data_pm25, puntos_data, valores_pm25, 'pm2_5', timestamp_ejecucion)
-    generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM10, colonias_data_pm10, puntos_data, valores_pm10, 'pm10', timestamp_ejecucion)
-    
+    if puntos_data.size == 0:
+        print("No hay puntos válidos para interpolación. Se generaron los GeoJSON de sensores e histórico pero no se hará la interpolación de colonias.")
+    else:
+        generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM25, colonias_data_pm25, puntos_data, valores_pm25, 'pm2_5', timestamp_ejecucion)
+        generar_geojson_colonias(SALIDA_GEOJSON_COLONIAS_PM10, colonias_data_pm10, puntos_data, valores_pm10, 'pm10', timestamp_ejecucion)
+
+    # ------------------ Generar historico_combinado.geojson ------------------ #
+    try:
+        import geopandas as gpd
+    except Exception as e:
+        gpd = None
+        print("Aviso: geopandas no está disponible. Instala geopandas para generar 'historico_combinado.geojson'. Error:", e)
+
+    try:
+        if gpd is None:
+            raise ImportError("geopandas no disponible")
+
+        historico_path = "historico.csv"
+        # Leer histórico (que se actualizó en crear_geojson) y sensores_detectados
+        if os.path.exists(historico_path):
+            df_historico = pd.read_csv(historico_path, encoding='utf-8')
+        else:
+            df_historico = pd.DataFrame()  # vacío si no existe
+
+        if os.path.exists(CSV_FILE):
+            df_sensores_detectados = pd.read_csv(CSV_FILE, encoding='utf-8')
+        else:
+            df_sensores_detectados = pd.DataFrame()
+
+        if df_historico.empty:
+            print("El archivo histórico está vacío o no existe; no se generará 'historico_combinado.geojson'.")
+        else:
+            # Intentar unir por 'name'
+            if 'name' not in df_historico.columns:
+                print("Advertencia: 'name' no existe en historico.csv; no se puede unir. Se copiará el histórico sin geometría.")
+                df_combinado = df_historico.copy()
+            else:
+                # Tomar las columnas de lat/lon de sensores_detectados (si existen)
+                cols_needed = []
+                if 'latitude' in df_sensores_detectados.columns and 'longitude' in df_sensores_detectados.columns:
+                    cols_needed = ['name', 'latitude', 'longitude']
+                elif 'lat' in df_sensores_detectados.columns and 'lon' in df_sensores_detectados.columns:
+                    df_sensores_detectados = df_sensores_detectados.rename(columns={'lat': 'latitude', 'lon': 'longitude'})
+                    cols_needed = ['name', 'latitude', 'longitude']
+
+                if cols_needed:
+                    df_combinado = df_historico.merge(df_sensores_detectados[cols_needed], on='name', how='left')
+                else:
+                    print("Advertencia: sensores_detectados.csv no tiene columnas 'latitude'/'longitude'. Se copiará el histórico sin geometría.")
+                    df_combinado = df_historico.copy()
+
+            # Limpiar filas sin coordenadas antes de crear geometría
+            if 'longitude' in df_combinado.columns and 'latitude' in df_combinado.columns:
+                df_combinado_geo = df_combinado.dropna(subset=['latitude', 'longitude']).copy()
+                if not df_combinado_geo.empty:
+                    # Asegurar tipos numéricos
+                    df_combinado_geo['longitude'] = df_combinado_geo['longitude'].astype(float)
+                    df_combinado_geo['latitude'] = df_combinado_geo['latitude'].astype(float)
+
+                    gdf = gpd.GeoDataFrame(
+                        df_combinado_geo,
+                        geometry=gpd.points_from_xy(df_combinado_geo.longitude, df_combinado_geo.latitude),
+                        crs="EPSG:4326"
+                    )
+                    # Guardar GeoJSON con todas las columnas originales + geometry
+                    salida_comb = "historico_combinado.geojson"
+                    gdf.to_file(salida_comb, driver="GeoJSON")
+                    print(f"GeoJSON combinado generado: {salida_comb}")
+                else:
+                    print("No se encontraron filas con latitud/longitud en el histórico combinado; no se creó el GeoJSON combinado.")
+            else:
+                print("No hay columnas de lat/lon para crear geometría en el histórico combinado; se omitió la creación del GeoJSON combinado.")
+    except Exception as e:
+        print(f"⚠️ Error al generar historico_combinado.geojson: {e}")
+
     print("Proceso completado.")
