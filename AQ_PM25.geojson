@@ -1,7 +1,7 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "ultima_ejecucion_utc": "2025-11-15T15:52:16.445532+00:00"
+    "ultima_ejecucion_utc": "2025-11-15T15:58:35.028087+00:00"
   },
   "features": [
     {
@@ -25178,7 +25178,7 @@
       },
       "properties": {
         "nombre": "1900600011647",
-        "valor_interpolado": 19.9,
+        "valor_interpolado": 19.57,
         "AQ": "Aceptable"
       }
     },
@@ -25460,7 +25460,7 @@
       },
       "properties": {
         "nombre": "1900600010969",
-        "valor_interpolado": 8.99,
+        "valor_interpolado": 9.02,
         "AQ": "Bueno"
       }
     },
@@ -29164,7 +29164,7 @@
       },
       "properties": {
         "nombre": "1900600011312",
-        "valor_interpolado": 23.95,
+        "valor_interpolado": 23.52,
         "AQ": "Aceptable"
       }
     },
@@ -29455,7 +29455,7 @@
       },
       "properties": {
         "nombre": "1900600011327",
-        "valor_interpolado": 30.6,
+        "valor_interpolado": 29.81,
         "AQ": "Aceptable"
       }
     },
@@ -30350,7 +30350,7 @@
       },
       "properties": {
         "nombre": "1900600010583",
-        "valor_interpolado": 12.57,
+        "valor_interpolado": 12.61,
         "AQ": "Bueno"
       }
     },
@@ -30760,7 +30760,7 @@
       },
       "properties": {
         "nombre": "1900600011350",
-        "valor_interpolado": 31.76,
+        "valor_interpolado": 31.23,
         "AQ": "Aceptable"
       }
     },
@@ -32788,7 +32788,7 @@
       },
       "properties": {
         "nombre": "1900600010757",
-        "valor_interpolado": 28.41,
+        "valor_interpolado": 27.7,
         "AQ": "Aceptable"
       }
     },
@@ -33453,7 +33453,7 @@
       },
       "properties": {
         "nombre": "1900600011581",
-        "valor_interpolado": 25.81,
+        "valor_interpolado": 25.17,
         "AQ": "Aceptable"
       }
     },
@@ -34138,7 +34138,7 @@
       },
       "properties": {
         "nombre": "1900600011064",
-        "valor_interpolado": 32.69,
+        "valor_interpolado": 32.05,
         "AQ": "Aceptable"
       }
     },
@@ -37976,7 +37976,7 @@
       },
       "properties": {
         "nombre": "1900600011098",
-        "valor_interpolado": 28.95,
+        "valor_interpolado": 28.43,
         "AQ": "Aceptable"
       }
     },
@@ -38195,7 +38195,7 @@
       },
       "properties": {
         "nombre": "1900600011331",
-        "valor_interpolado": 19.44,
+        "valor_interpolado": 19.24,
         "AQ": "Aceptable"
       }
     },
@@ -38490,7 +38490,7 @@
       },
       "properties": {
         "nombre": "1900600011365",
-        "valor_interpolado": 30.86,
+        "valor_interpolado": 30.53,
         "AQ": "Aceptable"
       }
     },
@@ -38817,8 +38817,8 @@
       },
       "properties": {
         "nombre": "1900600011384",
-        "valor_interpolado": 33.47,
-        "AQ": "Mala"
+        "valor_interpolado": 32.99,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -43545,7 +43545,7 @@
       },
       "properties": {
         "nombre": "1900600011825",
-        "valor_interpolado": 21.23,
+        "valor_interpolado": 21.37,
         "AQ": "Aceptable"
       }
     },
@@ -43784,7 +43784,7 @@
       },
       "properties": {
         "nombre": "1900600012490",
-        "valor_interpolado": 12.94,
+        "valor_interpolado": 12.75,
         "AQ": "Bueno"
       }
     },
@@ -44031,7 +44031,7 @@
       },
       "properties": {
         "nombre": "1900600010687",
-        "valor_interpolado": 11.95,
+        "valor_interpolado": 11.86,
         "AQ": "Bueno"
       }
     },
@@ -45551,7 +45551,7 @@
       },
       "properties": {
         "nombre": "1900600011399",
-        "valor_interpolado": 29.15,
+        "valor_interpolado": 29.02,
         "AQ": "Aceptable"
       }
     },
@@ -45790,7 +45790,7 @@
       },
       "properties": {
         "nombre": "1900600011083",
-        "valor_interpolado": 28.26,
+        "valor_interpolado": 27.6,
         "AQ": "Aceptable"
       }
     },
@@ -46061,7 +46061,7 @@
       },
       "properties": {
         "nombre": "1900600011346",
-        "valor_interpolado": 24.84,
+        "valor_interpolado": 24.28,
         "AQ": "Aceptable"
       }
     },
@@ -46594,7 +46594,7 @@
       },
       "properties": {
         "nombre": "1900600012113",
-        "valor_interpolado": 20.22,
+        "valor_interpolado": 20.35,
         "AQ": "Aceptable"
       }
     },
@@ -47593,7 +47593,7 @@
       },
       "properties": {
         "nombre": "1900600012768",
-        "valor_interpolado": 16.72,
+        "valor_interpolado": 16.69,
         "AQ": "Aceptable"
       }
     },
@@ -47832,7 +47832,7 @@
       },
       "properties": {
         "nombre": "1900600010206",
-        "valor_interpolado": 27.3,
+        "valor_interpolado": 27.57,
         "AQ": "Aceptable"
       }
     },
@@ -48659,7 +48659,7 @@
       },
       "properties": {
         "nombre": "1900600012895",
-        "valor_interpolado": 18.86,
+        "valor_interpolado": 18.81,
         "AQ": "Aceptable"
       }
     },
@@ -53966,7 +53966,7 @@
       },
       "properties": {
         "nombre": "1900600010244",
-        "valor_interpolado": 15.32,
+        "valor_interpolado": 15.46,
         "AQ": "Aceptable"
       }
     },
@@ -59768,7 +59768,7 @@
       },
       "properties": {
         "nombre": "1900600011577",
-        "valor_interpolado": 14.13,
+        "valor_interpolado": 14.1,
         "AQ": "Bueno"
       }
     },
@@ -68377,7 +68377,7 @@
       },
       "properties": {
         "nombre": "1900600011011",
-        "valor_interpolado": 23.66,
+        "valor_interpolado": 24.28,
         "AQ": "Aceptable"
       }
     },
@@ -68580,7 +68580,7 @@
       },
       "properties": {
         "nombre": "1900600010973",
-        "valor_interpolado": 14.04,
+        "valor_interpolado": 14.34,
         "AQ": "Bueno"
       }
     },
@@ -69389,7 +69389,7 @@
       },
       "properties": {
         "nombre": "1900600010920",
-        "valor_interpolado": 29.26,
+        "valor_interpolado": 28.62,
         "AQ": "Aceptable"
       }
     },
@@ -69739,7 +69739,7 @@
       },
       "properties": {
         "nombre": "1900600010189",
-        "valor_interpolado": 18.02,
+        "valor_interpolado": 18.38,
         "AQ": "Aceptable"
       }
     },
@@ -69946,7 +69946,7 @@
       },
       "properties": {
         "nombre": "190060001137A",
-        "valor_interpolado": 34.43,
+        "valor_interpolado": 33.75,
         "AQ": "Mala"
       }
     },
@@ -70534,7 +70534,7 @@
       },
       "properties": {
         "nombre": "1900600011026",
-        "valor_interpolado": 18.98,
+        "valor_interpolado": 19.4,
         "AQ": "Aceptable"
       }
     },
@@ -71828,7 +71828,7 @@
       },
       "properties": {
         "nombre": "1900600011401",
-        "valor_interpolado": 29.75,
+        "valor_interpolado": 29.83,
         "AQ": "Aceptable"
       }
     },
@@ -72998,7 +72998,7 @@
       },
       "properties": {
         "nombre": "1900600010672",
-        "valor_interpolado": 24.55,
+        "valor_interpolado": 24.15,
         "AQ": "Aceptable"
       }
     },
@@ -73241,7 +73241,7 @@
       },
       "properties": {
         "nombre": "1900600010723",
-        "valor_interpolado": 35.41,
+        "valor_interpolado": 34.61,
         "AQ": "Mala"
       }
     },
@@ -73891,7 +73891,7 @@
       },
       "properties": {
         "nombre": "1900600010954",
-        "valor_interpolado": 10.84,
+        "valor_interpolado": 10.96,
         "AQ": "Bueno"
       }
     },
@@ -75554,7 +75554,7 @@
       },
       "properties": {
         "nombre": "190060001055A",
-        "valor_interpolado": 30.32,
+        "valor_interpolado": 29.75,
         "AQ": "Aceptable"
       }
     },
@@ -75948,7 +75948,7 @@
       },
       "properties": {
         "nombre": "1900600010403",
-        "valor_interpolado": 32.87,
+        "valor_interpolado": 32.07,
         "AQ": "Aceptable"
       }
     },
@@ -76067,7 +76067,7 @@
       },
       "properties": {
         "nombre": "1900600010210",
-        "valor_interpolado": 16.82,
+        "valor_interpolado": 17.19,
         "AQ": "Aceptable"
       }
     },
@@ -76290,7 +76290,7 @@
       },
       "properties": {
         "nombre": "1900600010225",
-        "valor_interpolado": 11.56,
+        "valor_interpolado": 11.59,
         "AQ": "Bueno"
       }
     },
@@ -78829,7 +78829,7 @@
       },
       "properties": {
         "nombre": "1900600010259",
-        "valor_interpolado": 23.83,
+        "valor_interpolado": 24.51,
         "AQ": "Aceptable"
       }
     },
@@ -80575,7 +80575,7 @@
       },
       "properties": {
         "nombre": "190060001094A",
-        "valor_interpolado": 16.39,
+        "valor_interpolado": 16.5,
         "AQ": "Aceptable"
       }
     },
@@ -81522,7 +81522,7 @@
       },
       "properties": {
         "nombre": "1900600010992",
-        "valor_interpolado": 23.33,
+        "valor_interpolado": 23.74,
         "AQ": "Aceptable"
       }
     },
@@ -84414,7 +84414,7 @@
       },
       "properties": {
         "nombre": "1900600012984",
-        "valor_interpolado": 20.71,
+        "valor_interpolado": 20.67,
         "AQ": "Aceptable"
       }
     },
@@ -86195,8 +86195,8 @@
       },
       "properties": {
         "nombre": "1900600012965",
-        "valor_interpolado": 15.21,
-        "AQ": "Aceptable"
+        "valor_interpolado": 15.0,
+        "AQ": "Bueno"
       }
     },
     {
@@ -86712,7 +86712,7 @@
       },
       "properties": {
         "nombre": "1900600012804",
-        "valor_interpolado": 25.37,
+        "valor_interpolado": 25.46,
         "AQ": "Aceptable"
       }
     },
@@ -86959,7 +86959,7 @@
       },
       "properties": {
         "nombre": "1900600012433",
-        "valor_interpolado": 24.33,
+        "valor_interpolado": 23.76,
         "AQ": "Aceptable"
       }
     },
@@ -87426,7 +87426,7 @@
       },
       "properties": {
         "nombre": "1900600010174",
-        "valor_interpolado": 26.08,
+        "valor_interpolado": 25.74,
         "AQ": "Aceptable"
       }
     },
@@ -202543,7 +202543,7 @@
       },
       "properties": {
         "nombre": "1901900010416",
-        "valor_interpolado": 9.59,
+        "valor_interpolado": 9.95,
         "AQ": "Bueno"
       }
     },
@@ -202982,7 +202982,7 @@
       },
       "properties": {
         "nombre": "1901900010401",
-        "valor_interpolado": 20.51,
+        "valor_interpolado": 20.09,
         "AQ": "Aceptable"
       }
     },
@@ -203129,7 +203129,7 @@
       },
       "properties": {
         "nombre": "1901900010613",
-        "valor_interpolado": 11.84,
+        "valor_interpolado": 11.3,
         "AQ": "Bueno"
       }
     },
@@ -206509,7 +206509,7 @@
       },
       "properties": {
         "nombre": "1901900010223",
-        "valor_interpolado": 28.69,
+        "valor_interpolado": 25.78,
         "AQ": "Aceptable"
       }
     },
@@ -206836,7 +206836,7 @@
       },
       "properties": {
         "nombre": "1901900010238",
-        "valor_interpolado": 24.74,
+        "valor_interpolado": 21.79,
         "AQ": "Aceptable"
       }
     },
@@ -207469,7 +207469,7 @@
       },
       "properties": {
         "nombre": "1901900010153",
-        "valor_interpolado": 8.58,
+        "valor_interpolado": 6.17,
         "AQ": "Bueno"
       }
     },
@@ -207856,7 +207856,7 @@
       },
       "properties": {
         "nombre": "1901900010172",
-        "valor_interpolado": 26.66,
+        "valor_interpolado": 26.16,
         "AQ": "Aceptable"
       }
     },
@@ -208247,8 +208247,8 @@
       },
       "properties": {
         "nombre": "1901900010219",
-        "valor_interpolado": 36.65,
-        "AQ": "Mala"
+        "valor_interpolado": 25.9,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -209432,7 +209432,7 @@
       },
       "properties": {
         "nombre": "190190001005A",
-        "valor_interpolado": 28.99,
+        "valor_interpolado": 27.56,
         "AQ": "Aceptable"
       }
     },
@@ -209747,7 +209747,7 @@
       },
       "properties": {
         "nombre": "1901900010064",
-        "valor_interpolado": 32.2,
+        "valor_interpolado": 31.1,
         "AQ": "Aceptable"
       }
     },
@@ -210881,7 +210881,7 @@
       },
       "properties": {
         "nombre": "1901900010187",
-        "valor_interpolado": 8.27,
+        "valor_interpolado": 6.95,
         "AQ": "Bueno"
       }
     },
@@ -211432,8 +211432,8 @@
       },
       "properties": {
         "nombre": "1901900010204",
-        "valor_interpolado": 36.6,
-        "AQ": "Mala"
+        "valor_interpolado": 24.34,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -213751,7 +213751,7 @@
       },
       "properties": {
         "nombre": "1901900010079",
-        "valor_interpolado": 24.7,
+        "valor_interpolado": 24.43,
         "AQ": "Aceptable"
       }
     },
@@ -214492,7 +214492,7 @@
       },
       "properties": {
         "nombre": "1901900010100",
-        "valor_interpolado": 15.23,
+        "valor_interpolado": 15.17,
         "AQ": "Aceptable"
       }
     },
@@ -214759,8 +214759,8 @@
       },
       "properties": {
         "nombre": "1901900010168",
-        "valor_interpolado": 34.39,
-        "AQ": "Mala"
+        "valor_interpolado": 27.32,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -215226,7 +215226,7 @@
       },
       "properties": {
         "nombre": "1901900010350",
-        "valor_interpolado": 23.54,
+        "valor_interpolado": 23.47,
         "AQ": "Aceptable"
       }
     },
@@ -216113,7 +216113,7 @@
       },
       "properties": {
         "nombre": "1901900010191",
-        "valor_interpolado": 29.1,
+        "valor_interpolado": 20.3,
         "AQ": "Aceptable"
       }
     },
@@ -216428,7 +216428,7 @@
       },
       "properties": {
         "nombre": "1901900010257",
-        "valor_interpolado": 4.74,
+        "valor_interpolado": 5.25,
         "AQ": "Bueno"
       }
     },
@@ -217254,7 +217254,7 @@
       },
       "properties": {
         "nombre": "1901900010399",
-        "valor_interpolado": 11.55,
+        "valor_interpolado": 11.3,
         "AQ": "Bueno"
       }
     },
@@ -217613,7 +217613,7 @@
       },
       "properties": {
         "nombre": "1901900010435",
-        "valor_interpolado": 7.46,
+        "valor_interpolado": 7.81,
         "AQ": "Bueno"
       }
     },
@@ -218092,7 +218092,7 @@
       },
       "properties": {
         "nombre": "190190001044A",
-        "valor_interpolado": 10.25,
+        "valor_interpolado": 9.9,
         "AQ": "Bueno"
       }
     },
@@ -218535,7 +218535,7 @@
       },
       "properties": {
         "nombre": "1901900010488",
-        "valor_interpolado": 19.6,
+        "valor_interpolado": 19.51,
         "AQ": "Aceptable"
       }
     },
@@ -219058,7 +219058,7 @@
       },
       "properties": {
         "nombre": "1901900010492",
-        "valor_interpolado": 15.15,
+        "valor_interpolado": 15.05,
         "AQ": "Aceptable"
       }
     },
@@ -221672,7 +221672,7 @@
       },
       "properties": {
         "nombre": "1901900010505",
-        "valor_interpolado": 12.84,
+        "valor_interpolado": 12.48,
         "AQ": "Bueno"
       }
     },
@@ -222151,7 +222151,7 @@
       },
       "properties": {
         "nombre": "190190001051A",
-        "valor_interpolado": 18.26,
+        "valor_interpolado": 18.58,
         "AQ": "Aceptable"
       }
     },
@@ -222366,7 +222366,7 @@
       },
       "properties": {
         "nombre": "1901900010473",
-        "valor_interpolado": 11.44,
+        "valor_interpolado": 12.7,
         "AQ": "Bueno"
       }
     },
@@ -223380,7 +223380,7 @@
       },
       "properties": {
         "nombre": "1901900010242",
-        "valor_interpolado": 22.1,
+        "valor_interpolado": 22.5,
         "AQ": "Aceptable"
       }
     },
@@ -223715,7 +223715,7 @@
       },
       "properties": {
         "nombre": "1901900010384",
-        "valor_interpolado": 7.19,
+        "valor_interpolado": 7.74,
         "AQ": "Bueno"
       }
     },
@@ -224870,7 +224870,7 @@
       },
       "properties": {
         "nombre": "1901900010469",
-        "valor_interpolado": 12.47,
+        "valor_interpolado": 13.26,
         "AQ": "Bueno"
       }
     },
@@ -225881,7 +225881,7 @@
       },
       "properties": {
         "nombre": "1901900010454",
-        "valor_interpolado": 11.0,
+        "valor_interpolado": 11.2,
         "AQ": "Bueno"
       }
     },
@@ -226540,7 +226540,7 @@
       },
       "properties": {
         "nombre": "1901900010261",
-        "valor_interpolado": 2.9,
+        "valor_interpolado": 4.6,
         "AQ": "Bueno"
       }
     },
@@ -227615,7 +227615,7 @@
       },
       "properties": {
         "nombre": "1901900010280",
-        "valor_interpolado": 4.18,
+        "valor_interpolado": 4.19,
         "AQ": "Bueno"
       }
     },
@@ -241638,7 +241638,7 @@
       },
       "properties": {
         "nombre": "1902100010293",
-        "valor_interpolado": 24.81,
+        "valor_interpolado": 28.54,
         "AQ": "Aceptable"
       }
     },
@@ -241893,7 +241893,7 @@
       },
       "properties": {
         "nombre": "190210001033A",
-        "valor_interpolado": 22.48,
+        "valor_interpolado": 23.71,
         "AQ": "Aceptable"
       }
     },
@@ -247779,7 +247779,7 @@
       },
       "properties": {
         "nombre": "1902100010289",
-        "valor_interpolado": 18.31,
+        "valor_interpolado": 18.87,
         "AQ": "Aceptable"
       }
     },
@@ -251005,8 +251005,8 @@
       },
       "properties": {
         "nombre": "1902100010325",
-        "valor_interpolado": 28.62,
-        "AQ": "Aceptable"
+        "valor_interpolado": 35.5,
+        "AQ": "Mala"
       }
     },
     {
@@ -253838,7 +253838,7 @@
       },
       "properties": {
         "nombre": "1902100011412",
-        "valor_interpolado": 35.9,
+        "valor_interpolado": 34.9,
         "AQ": "Mala"
       }
     },
@@ -254137,7 +254137,7 @@
       },
       "properties": {
         "nombre": "1902100011427",
-        "valor_interpolado": 24.89,
+        "valor_interpolado": 24.63,
         "AQ": "Aceptable"
       }
     },
@@ -254628,7 +254628,7 @@
       },
       "properties": {
         "nombre": "1902100011408",
-        "valor_interpolado": 25.13,
+        "valor_interpolado": 24.8,
         "AQ": "Aceptable"
       }
     },
@@ -259472,7 +259472,7 @@
       },
       "properties": {
         "nombre": "1902100010043",
-        "valor_interpolado": 17.42,
+        "valor_interpolado": 20.56,
         "AQ": "Aceptable"
       }
     },
@@ -261327,8 +261327,8 @@
       },
       "properties": {
         "nombre": "1902100010378",
-        "valor_interpolado": 28.38,
-        "AQ": "Aceptable"
+        "valor_interpolado": 36.71,
+        "AQ": "Mala"
       }
     },
     {
@@ -262380,7 +262380,7 @@
       },
       "properties": {
         "nombre": "1902100011075",
-        "valor_interpolado": 20.34,
+        "valor_interpolado": 26.43,
         "AQ": "Aceptable"
       }
     },
@@ -299447,7 +299447,7 @@
       },
       "properties": {
         "nombre": "1902600010459",
-        "valor_interpolado": 34.76,
+        "valor_interpolado": 35.91,
         "AQ": "Mala"
       }
     },
@@ -299698,7 +299698,7 @@
       },
       "properties": {
         "nombre": "1902600010317",
-        "valor_interpolado": 35.24,
+        "valor_interpolado": 36.16,
         "AQ": "Mala"
       }
     },
@@ -300630,8 +300630,8 @@
       },
       "properties": {
         "nombre": "1902600011404",
-        "valor_interpolado": 35.42,
-        "AQ": "Mala"
+        "valor_interpolado": 27.8,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -303475,7 +303475,7 @@
       },
       "properties": {
         "nombre": "1902600010302",
-        "valor_interpolado": 34.46,
+        "valor_interpolado": 35.91,
         "AQ": "Mala"
       }
     },
@@ -303782,8 +303782,8 @@
       },
       "properties": {
         "nombre": "1902600010425",
-        "valor_interpolado": 37.1,
-        "AQ": "Mala"
+        "valor_interpolado": 19.08,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -304033,8 +304033,8 @@
       },
       "properties": {
         "nombre": "1902600010533",
-        "valor_interpolado": 36.02,
-        "AQ": "Mala"
+        "valor_interpolado": 23.59,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -305831,7 +305831,7 @@
       },
       "properties": {
         "nombre": "1902600010124",
-        "valor_interpolado": 18.19,
+        "valor_interpolado": 18.23,
         "AQ": "Aceptable"
       }
     },
@@ -309385,7 +309385,7 @@
       },
       "properties": {
         "nombre": "1902600011866",
-        "valor_interpolado": 24.8,
+        "valor_interpolado": 25.24,
         "AQ": "Aceptable"
       }
     },
@@ -310048,7 +310048,7 @@
       },
       "properties": {
         "nombre": "190260001207A",
-        "valor_interpolado": 33.17,
+        "valor_interpolado": 33.05,
         "AQ": "Mala"
       }
     },
@@ -310879,7 +310879,7 @@
       },
       "properties": {
         "nombre": "1902600012120",
-        "valor_interpolado": 33.22,
+        "valor_interpolado": 34.76,
         "AQ": "Mala"
       }
     },
@@ -311458,7 +311458,7 @@
       },
       "properties": {
         "nombre": "1902600012135",
-        "valor_interpolado": 33.5,
+        "valor_interpolado": 34.72,
         "AQ": "Mala"
       }
     },
@@ -312331,8 +312331,8 @@
       },
       "properties": {
         "nombre": "1902600010069",
-        "valor_interpolado": 35.99,
-        "AQ": "Mala"
+        "valor_interpolado": 31.48,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -312634,7 +312634,7 @@
       },
       "properties": {
         "nombre": "1902600010073",
-        "valor_interpolado": 35.27,
+        "valor_interpolado": 36.52,
         "AQ": "Mala"
       }
     },
@@ -312909,7 +312909,7 @@
       },
       "properties": {
         "nombre": "1902600010088",
-        "valor_interpolado": 34.18,
+        "valor_interpolado": 35.14,
         "AQ": "Mala"
       }
     },
@@ -313536,8 +313536,8 @@
       },
       "properties": {
         "nombre": "1902600010158",
-        "valor_interpolado": 36.46,
-        "AQ": "Mala"
+        "valor_interpolado": 26.24,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -313707,8 +313707,8 @@
       },
       "properties": {
         "nombre": "190260001029A",
-        "valor_interpolado": 35.5,
-        "AQ": "Mala"
+        "valor_interpolado": 28.67,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -313998,7 +313998,7 @@
       },
       "properties": {
         "nombre": "190260001125A",
-        "valor_interpolado": 33.88,
+        "valor_interpolado": 34.89,
         "AQ": "Mala"
       }
     },
@@ -314601,8 +314601,8 @@
       },
       "properties": {
         "nombre": "1902600011885",
-        "valor_interpolado": 38.28,
-        "AQ": "Mala"
+        "valor_interpolado": 30.92,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -316327,8 +316327,8 @@
       },
       "properties": {
         "nombre": "190260001189A",
-        "valor_interpolado": 37.56,
-        "AQ": "Mala"
+        "valor_interpolado": 27.02,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -317107,8 +317107,8 @@
       },
       "properties": {
         "nombre": "1902600010321",
-        "valor_interpolado": 32.94,
-        "AQ": "Aceptable"
+        "valor_interpolado": 33.63,
+        "AQ": "Mala"
       }
     },
     {
@@ -317302,7 +317302,7 @@
       },
       "properties": {
         "nombre": "1902600010336",
-        "valor_interpolado": 29.76,
+        "valor_interpolado": 30.26,
         "AQ": "Aceptable"
       }
     },
@@ -317645,7 +317645,7 @@
       },
       "properties": {
         "nombre": "1902600010340",
-        "valor_interpolado": 26.82,
+        "valor_interpolado": 27.16,
         "AQ": "Aceptable"
       }
     },
@@ -317896,7 +317896,7 @@
       },
       "properties": {
         "nombre": "1902600010355",
-        "valor_interpolado": 24.74,
+        "valor_interpolado": 24.99,
         "AQ": "Aceptable"
       }
     },
@@ -320116,7 +320116,7 @@
       },
       "properties": {
         "nombre": "1902600011546",
-        "valor_interpolado": 24.56,
+        "valor_interpolado": 24.57,
         "AQ": "Aceptable"
       }
     },
@@ -320970,7 +320970,7 @@
       },
       "properties": {
         "nombre": "190260001132A",
-        "valor_interpolado": 31.43,
+        "valor_interpolado": 32.09,
         "AQ": "Aceptable"
       }
     },
@@ -321651,7 +321651,7 @@
       },
       "properties": {
         "nombre": "1902600011368",
-        "valor_interpolado": 21.08,
+        "valor_interpolado": 21.1,
         "AQ": "Aceptable"
       }
     },
@@ -321914,8 +321914,8 @@
       },
       "properties": {
         "nombre": "1902600011419",
-        "valor_interpolado": 32.84,
-        "AQ": "Aceptable"
+        "valor_interpolado": 33.45,
+        "AQ": "Mala"
       }
     },
     {
@@ -323770,7 +323770,7 @@
       },
       "properties": {
         "nombre": "1902600012008",
-        "valor_interpolado": 34.4,
+        "valor_interpolado": 35.56,
         "AQ": "Mala"
       }
     },
@@ -326347,7 +326347,7 @@
       },
       "properties": {
         "nombre": "1902600010177",
-        "valor_interpolado": 34.76,
+        "valor_interpolado": 36.23,
         "AQ": "Mala"
       }
     },
@@ -326498,7 +326498,7 @@
       },
       "properties": {
         "nombre": "1902600010444",
-        "valor_interpolado": 34.02,
+        "valor_interpolado": 34.95,
         "AQ": "Mala"
       }
     },
@@ -326737,7 +326737,7 @@
       },
       "properties": {
         "nombre": "1902600011531",
-        "valor_interpolado": 26.74,
+        "valor_interpolado": 26.89,
         "AQ": "Aceptable"
       }
     },
@@ -327211,7 +327211,7 @@
       },
       "properties": {
         "nombre": "1902600010196",
-        "valor_interpolado": 35.47,
+        "valor_interpolado": 36.47,
         "AQ": "Mala"
       }
     },
@@ -327402,7 +327402,7 @@
       },
       "properties": {
         "nombre": "1902600010213",
-        "valor_interpolado": 22.01,
+        "valor_interpolado": 22.18,
         "AQ": "Aceptable"
       }
     },
@@ -327669,7 +327669,7 @@
       },
       "properties": {
         "nombre": "190260001011A",
-        "valor_interpolado": 21.17,
+        "valor_interpolado": 21.36,
         "AQ": "Aceptable"
       }
     },
@@ -327872,8 +327872,8 @@
       },
       "properties": {
         "nombre": "1902600010162",
-        "valor_interpolado": 35.79,
-        "AQ": "Mala"
+        "valor_interpolado": 30.5,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -328171,7 +328171,7 @@
       },
       "properties": {
         "nombre": "1902600010181",
-        "valor_interpolado": 34.53,
+        "valor_interpolado": 36.05,
         "AQ": "Mala"
       }
     },
@@ -328458,7 +328458,7 @@
       },
       "properties": {
         "nombre": "1902600010228",
-        "valor_interpolado": 21.26,
+        "valor_interpolado": 21.34,
         "AQ": "Aceptable"
       }
     },
@@ -329465,8 +329465,8 @@
       },
       "properties": {
         "nombre": "1902600011438",
-        "valor_interpolado": 34.54,
-        "AQ": "Mala"
+        "valor_interpolado": 31.2,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -330325,7 +330325,7 @@
       },
       "properties": {
         "nombre": "1902600012173",
-        "valor_interpolado": 26.39,
+        "valor_interpolado": 26.42,
         "AQ": "Aceptable"
       }
     },
@@ -332026,7 +332026,7 @@
       },
       "properties": {
         "nombre": "1902600012898",
-        "valor_interpolado": 34.19,
+        "valor_interpolado": 35.28,
         "AQ": "Mala"
       }
     },
@@ -333174,7 +333174,7 @@
       },
       "properties": {
         "nombre": "1902600010779",
-        "valor_interpolado": 28.08,
+        "valor_interpolado": 28.24,
         "AQ": "Aceptable"
       }
     },
@@ -333797,7 +333797,7 @@
       },
       "properties": {
         "nombre": "1902600010872",
-        "valor_interpolado": 33.85,
+        "valor_interpolado": 35.06,
         "AQ": "Mala"
       }
     },
@@ -334734,7 +334734,7 @@
       },
       "properties": {
         "nombre": "1902600012012",
-        "valor_interpolado": 34.01,
+        "valor_interpolado": 35.35,
         "AQ": "Mala"
       }
     },
@@ -335317,7 +335317,7 @@
       },
       "properties": {
         "nombre": "1902600012084",
-        "valor_interpolado": 33.35,
+        "valor_interpolado": 35.0,
         "AQ": "Mala"
       }
     },
@@ -335760,7 +335760,7 @@
       },
       "properties": {
         "nombre": "1902600012188",
-        "valor_interpolado": 34.44,
+        "valor_interpolado": 35.46,
         "AQ": "Mala"
       }
     },
@@ -338371,8 +338371,8 @@
       },
       "properties": {
         "nombre": "1902600010285",
-        "valor_interpolado": 37.79,
-        "AQ": "Mala"
+        "valor_interpolado": 16.87,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -339802,7 +339802,7 @@
       },
       "properties": {
         "nombre": "1902600012169",
-        "valor_interpolado": 33.04,
+        "valor_interpolado": 33.49,
         "AQ": "Mala"
       }
     },
@@ -340189,7 +340189,7 @@
       },
       "properties": {
         "nombre": "190260001118A",
-        "valor_interpolado": 30.64,
+        "valor_interpolado": 30.96,
         "AQ": "Aceptable"
       }
     },
@@ -342358,7 +342358,7 @@
       },
       "properties": {
         "nombre": "1902600010092",
-        "valor_interpolado": 29.66,
+        "valor_interpolado": 30.37,
         "AQ": "Aceptable"
       }
     },
@@ -343091,7 +343091,7 @@
       },
       "properties": {
         "nombre": "1902600011870",
-        "valor_interpolado": 25.4,
+        "valor_interpolado": 25.84,
         "AQ": "Aceptable"
       }
     },
@@ -343346,7 +343346,7 @@
       },
       "properties": {
         "nombre": "1902600011315",
-        "valor_interpolado": 30.36,
+        "valor_interpolado": 31.03,
         "AQ": "Aceptable"
       }
     },
@@ -347913,7 +347913,7 @@
       },
       "properties": {
         "nombre": "1902600011758",
-        "valor_interpolado": 35.11,
+        "valor_interpolado": 35.76,
         "AQ": "Mala"
       }
     },
@@ -352035,8 +352035,8 @@
       },
       "properties": {
         "nombre": "1902600011512",
-        "valor_interpolado": 35.26,
-        "AQ": "Mala"
+        "valor_interpolado": 26.49,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -352306,7 +352306,7 @@
       },
       "properties": {
         "nombre": "1902600011527",
-        "valor_interpolado": 33.79,
+        "valor_interpolado": 33.64,
         "AQ": "Mala"
       }
     },
@@ -352777,8 +352777,8 @@
       },
       "properties": {
         "nombre": "1902600010853",
-        "valor_interpolado": 34.5,
-        "AQ": "Mala"
+        "valor_interpolado": 28.73,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -353412,7 +353412,7 @@
       },
       "properties": {
         "nombre": "1902600011160",
-        "valor_interpolado": 33.42,
+        "valor_interpolado": 35.19,
         "AQ": "Mala"
       }
     },
@@ -353691,7 +353691,7 @@
       },
       "properties": {
         "nombre": "1902600011423",
-        "valor_interpolado": 29.54,
+        "valor_interpolado": 29.95,
         "AQ": "Aceptable"
       }
     },
@@ -354278,7 +354278,7 @@
       },
       "properties": {
         "nombre": "1902600011118",
-        "valor_interpolado": 33.29,
+        "valor_interpolado": 33.83,
         "AQ": "Mala"
       }
     },
@@ -354605,7 +354605,7 @@
       },
       "properties": {
         "nombre": "1902600010552",
-        "valor_interpolado": 35.09,
+        "valor_interpolado": 35.97,
         "AQ": "Mala"
       }
     },
@@ -354968,7 +354968,7 @@
       },
       "properties": {
         "nombre": "1902600010567",
-        "valor_interpolado": 28.53,
+        "valor_interpolado": 28.81,
         "AQ": "Aceptable"
       }
     },
@@ -355255,7 +355255,7 @@
       },
       "properties": {
         "nombre": "1902600010478",
-        "valor_interpolado": 26.77,
+        "valor_interpolado": 27.05,
         "AQ": "Aceptable"
       }
     },
@@ -355594,7 +355594,7 @@
       },
       "properties": {
         "nombre": "1902600012493",
-        "valor_interpolado": 24.66,
+        "valor_interpolado": 24.75,
         "AQ": "Aceptable"
       }
     },
@@ -355821,7 +355821,7 @@
       },
       "properties": {
         "nombre": "1902600012506",
-        "valor_interpolado": 26.84,
+        "valor_interpolado": 27.05,
         "AQ": "Aceptable"
       }
     },
@@ -358736,7 +358736,7 @@
       },
       "properties": {
         "nombre": "1902600010548",
-        "valor_interpolado": 34.28,
+        "valor_interpolado": 35.64,
         "AQ": "Mala"
       }
     },
@@ -359605,7 +359605,7 @@
       },
       "properties": {
         "nombre": "1902600011353",
-        "valor_interpolado": 23.06,
+        "valor_interpolado": 23.2,
         "AQ": "Aceptable"
       }
     },
@@ -475129,7 +475129,7 @@
       },
       "properties": {
         "nombre": "1903900014657",
-        "valor_interpolado": 22.08,
+        "valor_interpolado": 21.16,
         "AQ": "Aceptable"
       }
     },
@@ -475599,7 +475599,7 @@
       },
       "properties": {
         "nombre": "1903900013682",
-        "valor_interpolado": 27.15,
+        "valor_interpolado": 26.95,
         "AQ": "Aceptable"
       }
     },
@@ -475810,7 +475810,7 @@
       },
       "properties": {
         "nombre": "1903900010832",
-        "valor_interpolado": 27.79,
+        "valor_interpolado": 27.87,
         "AQ": "Aceptable"
       }
     },
@@ -476365,7 +476365,7 @@
       },
       "properties": {
         "nombre": "1903900011120",
-        "valor_interpolado": 42.35,
+        "valor_interpolado": 38.59,
         "AQ": "Mala"
       }
     },
@@ -476692,7 +476692,7 @@
       },
       "properties": {
         "nombre": "1903900012129",
-        "valor_interpolado": 17.94,
+        "valor_interpolado": 17.13,
         "AQ": "Aceptable"
       }
     },
@@ -477127,7 +477127,7 @@
       },
       "properties": {
         "nombre": "190390001363A",
-        "valor_interpolado": 25.12,
+        "valor_interpolado": 24.71,
         "AQ": "Aceptable"
       }
     },
@@ -477598,7 +477598,7 @@
       },
       "properties": {
         "nombre": "1903900014163",
-        "valor_interpolado": 27.22,
+        "valor_interpolado": 27.81,
         "AQ": "Aceptable"
       }
     },
@@ -478333,7 +478333,7 @@
       },
       "properties": {
         "nombre": "1903900014642",
-        "valor_interpolado": 21.01,
+        "valor_interpolado": 20.79,
         "AQ": "Aceptable"
       }
     },
@@ -478747,7 +478747,7 @@
       },
       "properties": {
         "nombre": "1903900013589",
-        "valor_interpolado": 35.97,
+        "valor_interpolado": 35.73,
         "AQ": "Mala"
       }
     },
@@ -479201,8 +479201,8 @@
       },
       "properties": {
         "nombre": "1903900011370",
-        "valor_interpolado": 39.38,
-        "AQ": "Mala"
+        "valor_interpolado": 26.99,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -479712,8 +479712,8 @@
       },
       "properties": {
         "nombre": "1903900012114",
-        "valor_interpolado": 35.06,
-        "AQ": "Mala"
+        "valor_interpolado": 23.23,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -480259,8 +480259,8 @@
       },
       "properties": {
         "nombre": "1903900012203",
-        "valor_interpolado": 32.5,
-        "AQ": "Aceptable"
+        "valor_interpolado": 34.6,
+        "AQ": "Mala"
       }
     },
     {
@@ -480474,7 +480474,7 @@
       },
       "properties": {
         "nombre": "1903900013574",
-        "valor_interpolado": 36.09,
+        "valor_interpolado": 36.22,
         "AQ": "Mala"
       }
     },
@@ -482933,7 +482933,7 @@
       },
       "properties": {
         "nombre": "1903900012792",
-        "valor_interpolado": 18.08,
+        "valor_interpolado": 18.78,
         "AQ": "Aceptable"
       }
     },
@@ -483911,8 +483911,8 @@
       },
       "properties": {
         "nombre": "190390001445A",
-        "valor_interpolado": 35.7,
-        "AQ": "Mala"
+        "valor_interpolado": 22.01,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -484266,7 +484266,7 @@
       },
       "properties": {
         "nombre": "1903900014638",
-        "valor_interpolado": 19.71,
+        "valor_interpolado": 19.28,
         "AQ": "Aceptable"
       }
     },
@@ -484608,7 +484608,7 @@
       },
       "properties": {
         "nombre": "1903900012063",
-        "valor_interpolado": 38.26,
+        "valor_interpolado": 40.38,
         "AQ": "Mala"
       }
     },
@@ -484759,7 +484759,7 @@
       },
       "properties": {
         "nombre": "1903900011690",
-        "valor_interpolado": 34.48,
+        "valor_interpolado": 33.24,
         "AQ": "Mala"
       }
     },
@@ -484966,7 +484966,7 @@
       },
       "properties": {
         "nombre": "1903900011760",
-        "valor_interpolado": 42.06,
+        "valor_interpolado": 43.15,
         "AQ": "Mala"
       }
     },
@@ -485177,7 +485177,7 @@
       },
       "properties": {
         "nombre": "1903900011934",
-        "valor_interpolado": 864.55,
+        "valor_interpolado": 849.9,
         "AQ": "Extremadamente mala"
       }
     },
@@ -485356,7 +485356,7 @@
       },
       "properties": {
         "nombre": "190390001192A",
-        "valor_interpolado": 49.73,
+        "valor_interpolado": 52.3,
         "AQ": "Mala"
       }
     },
@@ -485535,7 +485535,7 @@
       },
       "properties": {
         "nombre": "1903900012044",
-        "valor_interpolado": 31.18,
+        "valor_interpolado": 31.76,
         "AQ": "Aceptable"
       }
     },
@@ -485782,7 +485782,7 @@
       },
       "properties": {
         "nombre": "1903900012078",
-        "valor_interpolado": 34.32,
+        "valor_interpolado": 35.03,
         "AQ": "Mala"
       }
     },
@@ -485881,7 +485881,7 @@
       },
       "properties": {
         "nombre": "1903900011525",
-        "valor_interpolado": 28.19,
+        "valor_interpolado": 28.16,
         "AQ": "Aceptable"
       }
     },
@@ -486080,7 +486080,7 @@
       },
       "properties": {
         "nombre": "1903900011991",
-        "valor_interpolado": 37.24,
+        "valor_interpolado": 38.64,
         "AQ": "Mala"
       }
     },
@@ -486291,7 +486291,7 @@
       },
       "properties": {
         "nombre": "1903900012006",
-        "valor_interpolado": 43.83,
+        "valor_interpolado": 46.46,
         "AQ": "Mala"
       }
     },
@@ -486498,7 +486498,7 @@
       },
       "properties": {
         "nombre": "1903900010673",
-        "valor_interpolado": 23.14,
+        "valor_interpolado": 22.63,
         "AQ": "Aceptable"
       }
     },
@@ -486737,7 +486737,7 @@
       },
       "properties": {
         "nombre": "1903900010298",
-        "valor_interpolado": 14.64,
+        "valor_interpolado": 14.32,
         "AQ": "Bueno"
       }
     },
@@ -486952,7 +486952,7 @@
       },
       "properties": {
         "nombre": "1903900010404",
-        "valor_interpolado": 17.59,
+        "valor_interpolado": 17.17,
         "AQ": "Aceptable"
       }
     },
@@ -487123,7 +487123,7 @@
       },
       "properties": {
         "nombre": "1903900011012",
-        "valor_interpolado": 37.45,
+        "valor_interpolado": 37.6,
         "AQ": "Mala"
       }
     },
@@ -487266,7 +487266,7 @@
       },
       "properties": {
         "nombre": "1903900011065",
-        "valor_interpolado": 40.74,
+        "valor_interpolado": 41.01,
         "AQ": "Mala"
       }
     },
@@ -487405,7 +487405,7 @@
       },
       "properties": {
         "nombre": "1903900010175",
-        "valor_interpolado": 12.47,
+        "valor_interpolado": 12.17,
         "AQ": "Bueno"
       }
     },
@@ -487576,7 +487576,7 @@
       },
       "properties": {
         "nombre": "190390001018A",
-        "valor_interpolado": 9.33,
+        "valor_interpolado": 9.13,
         "AQ": "Bueno"
       }
     },
@@ -487735,7 +487735,7 @@
       },
       "properties": {
         "nombre": "1903900010194",
-        "valor_interpolado": 11.28,
+        "valor_interpolado": 11.03,
         "AQ": "Bueno"
       }
     },
@@ -488010,7 +488010,7 @@
       },
       "properties": {
         "nombre": "1903900010226",
-        "valor_interpolado": 11.06,
+        "valor_interpolado": 10.86,
         "AQ": "Bueno"
       }
     },
@@ -488213,7 +488213,7 @@
       },
       "properties": {
         "nombre": "1903900014229",
-        "valor_interpolado": 36.02,
+        "valor_interpolado": 35.77,
         "AQ": "Mala"
       }
     },
@@ -488786,7 +488786,7 @@
       },
       "properties": {
         "nombre": "1903900010353",
-        "valor_interpolado": 20.18,
+        "valor_interpolado": 20.88,
         "AQ": "Aceptable"
       }
     },
@@ -488961,7 +488961,7 @@
       },
       "properties": {
         "nombre": "1903900010936",
-        "valor_interpolado": 28.22,
+        "valor_interpolado": 27.5,
         "AQ": "Aceptable"
       }
     },
@@ -489148,7 +489148,7 @@
       },
       "properties": {
         "nombre": "1903900011173",
-        "valor_interpolado": 34.69,
+        "valor_interpolado": 33.65,
         "AQ": "Mala"
       }
     },
@@ -489375,7 +489375,7 @@
       },
       "properties": {
         "nombre": "1903900011188",
-        "valor_interpolado": 27.64,
+        "valor_interpolado": 26.93,
         "AQ": "Aceptable"
       }
     },
@@ -489554,7 +489554,7 @@
       },
       "properties": {
         "nombre": "1903900011224",
-        "valor_interpolado": 7.04,
+        "valor_interpolado": 6.9,
         "AQ": "Bueno"
       }
     },
@@ -489673,7 +489673,7 @@
       },
       "properties": {
         "nombre": "1903900011328",
-        "valor_interpolado": 51.68,
+        "valor_interpolado": 51.77,
         "AQ": "Mala"
       }
     },
@@ -489844,7 +489844,7 @@
       },
       "properties": {
         "nombre": "1903900011332",
-        "valor_interpolado": 48.63,
+        "valor_interpolado": 48.84,
         "AQ": "Mala"
       }
     },
@@ -490360,7 +490360,7 @@
       },
       "properties": {
         "nombre": "1903900011563",
-        "valor_interpolado": 45.51,
+        "valor_interpolado": 45.43,
         "AQ": "Mala"
       }
     },
@@ -490615,7 +490615,7 @@
       },
       "properties": {
         "nombre": "1903900011652",
-        "valor_interpolado": 24.45,
+        "valor_interpolado": 22.72,
         "AQ": "Aceptable"
       }
     },
@@ -490802,7 +490802,7 @@
       },
       "properties": {
         "nombre": "1903900011667",
-        "valor_interpolado": 7.71,
+        "valor_interpolado": 7.24,
         "AQ": "Bueno"
       }
     },
@@ -490977,7 +490977,7 @@
       },
       "properties": {
         "nombre": "1903900011671",
-        "valor_interpolado": 9.99,
+        "valor_interpolado": 9.49,
         "AQ": "Bueno"
       }
     },
@@ -491224,7 +491224,7 @@
       },
       "properties": {
         "nombre": "1903900011775",
-        "valor_interpolado": 49.74,
+        "valor_interpolado": 44.33,
         "AQ": "Mala"
       }
     },
@@ -491427,8 +491427,8 @@
       },
       "properties": {
         "nombre": "190390001178A",
-        "valor_interpolado": 44.35,
-        "AQ": "Mala"
+        "valor_interpolado": 20.39,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -491722,8 +491722,8 @@
       },
       "properties": {
         "nombre": "1903900011811",
-        "valor_interpolado": 37.24,
-        "AQ": "Mala"
+        "valor_interpolado": 16.1,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -492013,7 +492013,7 @@
       },
       "properties": {
         "nombre": "190390001210A",
-        "valor_interpolado": 25.96,
+        "valor_interpolado": 25.8,
         "AQ": "Aceptable"
       }
     },
@@ -492435,7 +492435,7 @@
       },
       "properties": {
         "nombre": "1903900012186",
-        "valor_interpolado": 31.38,
+        "valor_interpolado": 30.81,
         "AQ": "Aceptable"
       }
     },
@@ -492542,7 +492542,7 @@
       },
       "properties": {
         "nombre": "1903900011559",
-        "valor_interpolado": 36.7,
+        "valor_interpolado": 35.3,
         "AQ": "Mala"
       }
     },
@@ -492857,7 +492857,7 @@
       },
       "properties": {
         "nombre": "1903900013428",
-        "valor_interpolado": 11.92,
+        "valor_interpolado": 11.66,
         "AQ": "Bueno"
       }
     },
@@ -494276,7 +494276,7 @@
       },
       "properties": {
         "nombre": "1903900014214",
-        "valor_interpolado": 33.82,
+        "valor_interpolado": 33.55,
         "AQ": "Mala"
       }
     },
@@ -494953,7 +494953,7 @@
       },
       "properties": {
         "nombre": "1903900014712",
-        "valor_interpolado": 29.76,
+        "valor_interpolado": 29.36,
         "AQ": "Aceptable"
       }
     },
@@ -495443,7 +495443,7 @@
       },
       "properties": {
         "nombre": "1903900014727",
-        "valor_interpolado": 31.76,
+        "valor_interpolado": 31.39,
         "AQ": "Aceptable"
       }
     },
@@ -496670,7 +496670,7 @@
       },
       "properties": {
         "nombre": "1903900011544",
-        "valor_interpolado": 22.31,
+        "valor_interpolado": 21.59,
         "AQ": "Aceptable"
       }
     },
@@ -496821,7 +496821,7 @@
       },
       "properties": {
         "nombre": "1903900011347",
-        "valor_interpolado": 48.49,
+        "valor_interpolado": 47.47,
         "AQ": "Mala"
       }
     },
@@ -496952,7 +496952,7 @@
       },
       "properties": {
         "nombre": "1903900011101",
-        "valor_interpolado": 45.14,
+        "valor_interpolado": 45.49,
         "AQ": "Mala"
       }
     },
@@ -497191,8 +497191,8 @@
       },
       "properties": {
         "nombre": "1903900010692",
-        "valor_interpolado": 32.87,
-        "AQ": "Aceptable"
+        "valor_interpolado": 33.15,
+        "AQ": "Mala"
       }
     },
     {
@@ -497354,7 +497354,7 @@
       },
       "properties": {
         "nombre": "190390001071A",
-        "valor_interpolado": 33.91,
+        "valor_interpolado": 34.57,
         "AQ": "Mala"
       }
     },
@@ -497580,7 +497580,7 @@
       },
       "properties": {
         "nombre": "190390001153A",
-        "valor_interpolado": 10.02,
+        "valor_interpolado": 9.64,
         "AQ": "Bueno"
       }
     },
@@ -498121,7 +498121,7 @@
       },
       "properties": {
         "nombre": "1903900012222",
-        "valor_interpolado": 30.98,
+        "valor_interpolado": 30.82,
         "AQ": "Aceptable"
       }
     },
@@ -498332,7 +498332,7 @@
       },
       "properties": {
         "nombre": "1903900010048",
-        "valor_interpolado": 2.32,
+        "valor_interpolado": 2.3,
         "AQ": "Bueno"
       }
     },
@@ -498463,7 +498463,7 @@
       },
       "properties": {
         "nombre": "1903900010160",
-        "valor_interpolado": 14.53,
+        "valor_interpolado": 14.16,
         "AQ": "Bueno"
       }
     },
@@ -498606,7 +498606,7 @@
       },
       "properties": {
         "nombre": "1903900011915",
-        "valor_interpolado": 40.1,
+        "valor_interpolado": 41.37,
         "AQ": "Mala"
       }
     },
@@ -498773,7 +498773,7 @@
       },
       "properties": {
         "nombre": "1903900012824",
-        "valor_interpolado": 22.74,
+        "valor_interpolado": 23.45,
         "AQ": "Aceptable"
       }
     },
@@ -499060,7 +499060,7 @@
       },
       "properties": {
         "nombre": "1903900010103",
-        "valor_interpolado": 11.9,
+        "valor_interpolado": 11.6,
         "AQ": "Bueno"
       }
     },
@@ -499299,7 +499299,7 @@
       },
       "properties": {
         "nombre": "1903900010122",
-        "valor_interpolado": 7.62,
+        "valor_interpolado": 7.47,
         "AQ": "Bueno"
       }
     },
@@ -499506,7 +499506,7 @@
       },
       "properties": {
         "nombre": "1903900010207",
-        "valor_interpolado": 7.84,
+        "valor_interpolado": 7.7,
         "AQ": "Bueno"
       }
     },
@@ -499665,7 +499665,7 @@
       },
       "properties": {
         "nombre": "190390001089A",
-        "valor_interpolado": 40.1,
+        "valor_interpolado": 39.05,
         "AQ": "Mala"
       }
     },
@@ -499832,7 +499832,7 @@
       },
       "properties": {
         "nombre": "1903900010813",
-        "valor_interpolado": 27.28,
+        "valor_interpolado": 27.24,
         "AQ": "Aceptable"
       }
     },
@@ -499951,7 +499951,7 @@
       },
       "properties": {
         "nombre": "190390001096A",
-        "valor_interpolado": 8.95,
+        "valor_interpolado": 8.78,
         "AQ": "Bueno"
       }
     },
@@ -500090,7 +500090,7 @@
       },
       "properties": {
         "nombre": "190390001107A",
-        "valor_interpolado": 43.85,
+        "valor_interpolado": 44.1,
         "AQ": "Mala"
       }
     },
@@ -500209,7 +500209,7 @@
       },
       "properties": {
         "nombre": "1903900011099",
-        "valor_interpolado": 42.36,
+        "valor_interpolado": 42.72,
         "AQ": "Mala"
       }
     },
@@ -500555,7 +500555,7 @@
       },
       "properties": {
         "nombre": "190390001146A",
-        "valor_interpolado": 22.4,
+        "valor_interpolado": 21.29,
         "AQ": "Aceptable"
       }
     },
@@ -500702,7 +500702,7 @@
       },
       "properties": {
         "nombre": "1903900011474",
-        "valor_interpolado": 11.0,
+        "valor_interpolado": 10.71,
         "AQ": "Bueno"
       }
     },
@@ -501045,7 +501045,7 @@
       },
       "properties": {
         "nombre": "1903900011648",
-        "valor_interpolado": 26.9,
+        "valor_interpolado": 25.04,
         "AQ": "Aceptable"
       }
     },
@@ -501236,7 +501236,7 @@
       },
       "properties": {
         "nombre": "1903900011953",
-        "valor_interpolado": 16.15,
+        "valor_interpolado": 16.04,
         "AQ": "Aceptable"
       }
     },
@@ -501347,7 +501347,7 @@
       },
       "properties": {
         "nombre": "1903900011968",
-        "valor_interpolado": 24.3,
+        "valor_interpolado": 23.52,
         "AQ": "Aceptable"
       }
     },
@@ -501474,7 +501474,7 @@
       },
       "properties": {
         "nombre": "1903900011972",
-        "valor_interpolado": 28.43,
+        "valor_interpolado": 27.87,
         "AQ": "Aceptable"
       }
     },
@@ -501633,7 +501633,7 @@
       },
       "properties": {
         "nombre": "1903900011987",
-        "valor_interpolado": 32.6,
+        "valor_interpolado": 32.92,
         "AQ": "Aceptable"
       }
     },
@@ -501812,7 +501812,7 @@
       },
       "properties": {
         "nombre": "1903900012010",
-        "valor_interpolado": 31.18,
+        "valor_interpolado": 32.02,
         "AQ": "Aceptable"
       }
     },
@@ -502143,8 +502143,8 @@
       },
       "properties": {
         "nombre": "1903900012025",
-        "valor_interpolado": 36.8,
-        "AQ": "Mala"
+        "valor_interpolado": 15.15,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -502561,7 +502561,7 @@
       },
       "properties": {
         "nombre": "1903900012608",
-        "valor_interpolado": 5.98,
+        "valor_interpolado": 6.11,
         "AQ": "Bueno"
       }
     },
@@ -502900,7 +502900,7 @@
       },
       "properties": {
         "nombre": "1903900012260",
-        "valor_interpolado": 33.55,
+        "valor_interpolado": 33.52,
         "AQ": "Mala"
       }
     },
@@ -503374,7 +503374,7 @@
       },
       "properties": {
         "nombre": "1903900012523",
-        "valor_interpolado": 2.42,
+        "valor_interpolado": 3.03,
         "AQ": "Bueno"
       }
     },
@@ -504095,7 +504095,7 @@
       },
       "properties": {
         "nombre": "1903900012612",
-        "valor_interpolado": 4.99,
+        "valor_interpolado": 4.87,
         "AQ": "Bueno"
       }
     },
@@ -504429,7 +504429,7 @@
       },
       "properties": {
         "nombre": "1903900013339",
-        "valor_interpolado": 5.84,
+        "valor_interpolado": 7.83,
         "AQ": "Bueno"
       }
     },
@@ -504808,7 +504808,7 @@
       },
       "properties": {
         "nombre": "1903900013432",
-        "valor_interpolado": 9.27,
+        "valor_interpolado": 9.1,
         "AQ": "Bueno"
       }
     },
@@ -505234,7 +505234,7 @@
       },
       "properties": {
         "nombre": "1903900013381",
-        "valor_interpolado": 6.71,
+        "valor_interpolado": 6.56,
         "AQ": "Bueno"
       }
     },
@@ -507996,7 +507996,7 @@
       },
       "properties": {
         "nombre": "1903900014587",
-        "valor_interpolado": 46.48,
+        "valor_interpolado": 46.4,
         "AQ": "Mala"
       }
     },
@@ -508219,7 +508219,7 @@
       },
       "properties": {
         "nombre": "1903900014604",
-        "valor_interpolado": 35.0,
+        "valor_interpolado": 35.16,
         "AQ": "Mala"
       }
     },
@@ -508390,8 +508390,8 @@
       },
       "properties": {
         "nombre": "1903900014661",
-        "valor_interpolado": 37.89,
-        "AQ": "Mala"
+        "valor_interpolado": 10.89,
+        "AQ": "Bueno"
       }
     },
     {
@@ -508625,7 +508625,7 @@
       },
       "properties": {
         "nombre": "1903900014680",
-        "valor_interpolado": 33.79,
+        "valor_interpolado": 33.3,
         "AQ": "Mala"
       }
     },
@@ -509883,7 +509883,7 @@
       },
       "properties": {
         "nombre": "1903900011489",
-        "valor_interpolado": 10.6,
+        "valor_interpolado": 9.93,
         "AQ": "Bueno"
       }
     },
@@ -510246,8 +510246,8 @@
       },
       "properties": {
         "nombre": "1903900010279",
-        "valor_interpolado": 15.37,
-        "AQ": "Aceptable"
+        "valor_interpolado": 14.99,
+        "AQ": "Bueno"
       }
     },
     {
@@ -510453,7 +510453,7 @@
       },
       "properties": {
         "nombre": "1903900010531",
-        "valor_interpolado": 18.03,
+        "valor_interpolado": 17.64,
         "AQ": "Aceptable"
       }
     },
@@ -510696,7 +510696,7 @@
       },
       "properties": {
         "nombre": "1903900010635",
-        "valor_interpolado": 32.38,
+        "valor_interpolado": 31.55,
         "AQ": "Aceptable"
       }
     },
@@ -510883,7 +510883,7 @@
       },
       "properties": {
         "nombre": "1903900011686",
-        "valor_interpolado": 18.33,
+        "valor_interpolado": 17.82,
         "AQ": "Aceptable"
       }
     },
@@ -511098,8 +511098,8 @@
       },
       "properties": {
         "nombre": "1903900011807",
-        "valor_interpolado": 39.55,
-        "AQ": "Mala"
+        "valor_interpolado": 10.4,
+        "AQ": "Bueno"
       }
     },
     {
@@ -511401,7 +511401,7 @@
       },
       "properties": {
         "nombre": "1903900011830",
-        "valor_interpolado": 34.85,
+        "valor_interpolado": 36.6,
         "AQ": "Mala"
       }
     },
@@ -511672,7 +511672,7 @@
       },
       "properties": {
         "nombre": "1903900012097",
-        "valor_interpolado": 22.1,
+        "valor_interpolado": 21.11,
         "AQ": "Aceptable"
       }
     },
@@ -511915,7 +511915,7 @@
       },
       "properties": {
         "nombre": "1903900012256",
-        "valor_interpolado": 29.3,
+        "valor_interpolado": 29.4,
         "AQ": "Aceptable"
       }
     },
@@ -512406,7 +512406,7 @@
       },
       "properties": {
         "nombre": "1903900012307",
-        "valor_interpolado": 42.43,
+        "valor_interpolado": 42.63,
         "AQ": "Mala"
       }
     },
@@ -512688,7 +512688,7 @@
       },
       "properties": {
         "nombre": "1903900012453",
-        "valor_interpolado": 44.08,
+        "valor_interpolado": 44.48,
         "AQ": "Mala"
       }
     },
@@ -513007,7 +513007,7 @@
       },
       "properties": {
         "nombre": "1903900012716",
-        "valor_interpolado": 46.28,
+        "valor_interpolado": 35.18,
         "AQ": "Mala"
       }
     },
@@ -513430,8 +513430,8 @@
       },
       "properties": {
         "nombre": "1903900012735",
-        "valor_interpolado": 42.62,
-        "AQ": "Mala"
+        "valor_interpolado": 24.37,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -513901,7 +513901,7 @@
       },
       "properties": {
         "nombre": "1903900012769",
-        "valor_interpolado": 31.9,
+        "valor_interpolado": 30.7,
         "AQ": "Aceptable"
       }
     },
@@ -514052,7 +514052,7 @@
       },
       "properties": {
         "nombre": "1903900012773",
-        "valor_interpolado": 14.04,
+        "valor_interpolado": 13.63,
         "AQ": "Bueno"
       }
     },
@@ -515045,7 +515045,7 @@
       },
       "properties": {
         "nombre": "1903900014040",
-        "valor_interpolado": 4.23,
+        "valor_interpolado": 4.74,
         "AQ": "Bueno"
       }
     },
@@ -515528,7 +515528,7 @@
       },
       "properties": {
         "nombre": "1903900014178",
-        "valor_interpolado": 18.48,
+        "valor_interpolado": 17.47,
         "AQ": "Aceptable"
       }
     },
@@ -516554,7 +516554,7 @@
       },
       "properties": {
         "nombre": "1903900010052",
-        "valor_interpolado": 3.1,
+        "valor_interpolado": 3.07,
         "AQ": "Bueno"
       }
     },
@@ -516845,7 +516845,7 @@
       },
       "properties": {
         "nombre": "1903900010118",
-        "valor_interpolado": 6.68,
+        "valor_interpolado": 6.56,
         "AQ": "Bueno"
       }
     },
@@ -517172,7 +517172,7 @@
       },
       "properties": {
         "nombre": "1903900010156",
-        "valor_interpolado": 14.68,
+        "valor_interpolado": 14.3,
         "AQ": "Bueno"
       }
     },
@@ -517575,7 +517575,7 @@
       },
       "properties": {
         "nombre": "1903900010264",
-        "valor_interpolado": 19.13,
+        "valor_interpolado": 19.08,
         "AQ": "Aceptable"
       }
     },
@@ -517954,7 +517954,7 @@
       },
       "properties": {
         "nombre": "1903900010283",
-        "valor_interpolado": 16.22,
+        "valor_interpolado": 15.83,
         "AQ": "Aceptable"
       }
     },
@@ -518229,7 +518229,7 @@
       },
       "properties": {
         "nombre": "1903900010315",
-        "valor_interpolado": 9.54,
+        "valor_interpolado": 9.4,
         "AQ": "Bueno"
       }
     },
@@ -519020,7 +519020,7 @@
       },
       "properties": {
         "nombre": "190390001032A",
-        "valor_interpolado": 5.74,
+        "valor_interpolado": 5.73,
         "AQ": "Bueno"
       }
     },
@@ -519447,7 +519447,7 @@
       },
       "properties": {
         "nombre": "1903900010349",
-        "valor_interpolado": 7.45,
+        "valor_interpolado": 7.41,
         "AQ": "Bueno"
       }
     },
@@ -519794,7 +519794,7 @@
       },
       "properties": {
         "nombre": "1903900010391",
-        "valor_interpolado": 19.52,
+        "valor_interpolado": 19.03,
         "AQ": "Aceptable"
       }
     },
@@ -520081,7 +520081,7 @@
       },
       "properties": {
         "nombre": "1903900010438",
-        "valor_interpolado": 13.22,
+        "valor_interpolado": 13.0,
         "AQ": "Bueno"
       }
     },
@@ -520384,7 +520384,7 @@
       },
       "properties": {
         "nombre": "1903900010442",
-        "valor_interpolado": 11.6,
+        "valor_interpolado": 11.44,
         "AQ": "Bueno"
       }
     },
@@ -520631,7 +520631,7 @@
       },
       "properties": {
         "nombre": "1903900010457",
-        "valor_interpolado": 24.58,
+        "valor_interpolado": 25.19,
         "AQ": "Aceptable"
       }
     },
@@ -520802,7 +520802,7 @@
       },
       "properties": {
         "nombre": "1903900010480",
-        "valor_interpolado": 26.9,
+        "valor_interpolado": 26.22,
         "AQ": "Aceptable"
       }
     },
@@ -521093,7 +521093,7 @@
       },
       "properties": {
         "nombre": "1903900010508",
-        "valor_interpolado": 23.56,
+        "valor_interpolado": 22.97,
         "AQ": "Aceptable"
       }
     },
@@ -521304,7 +521304,7 @@
       },
       "properties": {
         "nombre": "1903900010512",
-        "valor_interpolado": 25.82,
+        "valor_interpolado": 25.17,
         "AQ": "Aceptable"
       }
     },
@@ -521619,7 +521619,7 @@
       },
       "properties": {
         "nombre": "1903900010527",
-        "valor_interpolado": 22.11,
+        "valor_interpolado": 21.57,
         "AQ": "Aceptable"
       }
     },
@@ -521794,7 +521794,7 @@
       },
       "properties": {
         "nombre": "1903900010546",
-        "valor_interpolado": 23.6,
+        "valor_interpolado": 23.04,
         "AQ": "Aceptable"
       }
     },
@@ -521985,7 +521985,7 @@
       },
       "properties": {
         "nombre": "1903900010550",
-        "valor_interpolado": 19.95,
+        "valor_interpolado": 19.51,
         "AQ": "Aceptable"
       }
     },
@@ -522256,7 +522256,7 @@
       },
       "properties": {
         "nombre": "1903900010565",
-        "valor_interpolado": 15.72,
+        "valor_interpolado": 15.43,
         "AQ": "Aceptable"
       }
     },
@@ -522487,7 +522487,7 @@
       },
       "properties": {
         "nombre": "190390001057A",
-        "valor_interpolado": 19.66,
+        "valor_interpolado": 19.26,
         "AQ": "Aceptable"
       }
     },
@@ -522822,7 +522822,7 @@
       },
       "properties": {
         "nombre": "1903900010599",
-        "valor_interpolado": 20.32,
+        "valor_interpolado": 21.36,
         "AQ": "Aceptable"
       }
     },
@@ -523089,7 +523089,7 @@
       },
       "properties": {
         "nombre": "1903900010601",
-        "valor_interpolado": 29.55,
+        "valor_interpolado": 30.02,
         "AQ": "Aceptable"
       }
     },
@@ -523340,7 +523340,7 @@
       },
       "properties": {
         "nombre": "1903900010620",
-        "valor_interpolado": 36.0,
+        "valor_interpolado": 35.06,
         "AQ": "Mala"
       }
     },
@@ -523547,7 +523547,7 @@
       },
       "properties": {
         "nombre": "190390001064A",
-        "valor_interpolado": 29.7,
+        "valor_interpolado": 28.96,
         "AQ": "Aceptable"
       }
     },
@@ -523842,7 +523842,7 @@
       },
       "properties": {
         "nombre": "1903900010654",
-        "valor_interpolado": 24.4,
+        "valor_interpolado": 23.84,
         "AQ": "Aceptable"
       }
     },
@@ -524101,7 +524101,7 @@
       },
       "properties": {
         "nombre": "1903900010705",
-        "valor_interpolado": 33.15,
+        "valor_interpolado": 34.24,
         "AQ": "Mala"
       }
     },
@@ -524280,7 +524280,7 @@
       },
       "properties": {
         "nombre": "1903900010739",
-        "valor_interpolado": 36.93,
+        "valor_interpolado": 35.97,
         "AQ": "Mala"
       }
     },
@@ -524503,7 +524503,7 @@
       },
       "properties": {
         "nombre": "1903900010743",
-        "valor_interpolado": 34.47,
+        "valor_interpolado": 33.59,
         "AQ": "Mala"
       }
     },
@@ -524710,7 +524710,7 @@
       },
       "properties": {
         "nombre": "1903900010758",
-        "valor_interpolado": 32.53,
+        "valor_interpolado": 31.72,
         "AQ": "Aceptable"
       }
     },
@@ -525140,7 +525140,7 @@
       },
       "properties": {
         "nombre": "1903900010828",
-        "valor_interpolado": 26.65,
+        "valor_interpolado": 26.69,
         "AQ": "Aceptable"
       }
     },
@@ -525379,7 +525379,7 @@
       },
       "properties": {
         "nombre": "1903900010866",
-        "valor_interpolado": 38.05,
+        "valor_interpolado": 38.53,
         "AQ": "Mala"
       }
     },
@@ -525634,7 +525634,7 @@
       },
       "properties": {
         "nombre": "1903900010870",
-        "valor_interpolado": 39.29,
+        "valor_interpolado": 38.82,
         "AQ": "Mala"
       }
     },
@@ -525849,7 +525849,7 @@
       },
       "properties": {
         "nombre": "1903900010885",
-        "valor_interpolado": 42.51,
+        "valor_interpolado": 41.38,
         "AQ": "Mala"
       }
     },
@@ -526088,7 +526088,7 @@
       },
       "properties": {
         "nombre": "1903900010940",
-        "valor_interpolado": 18.4,
+        "valor_interpolado": 17.96,
         "AQ": "Aceptable"
       }
     },
@@ -526227,7 +526227,7 @@
       },
       "properties": {
         "nombre": "1903900011046",
-        "valor_interpolado": 42.6,
+        "valor_interpolado": 42.75,
         "AQ": "Mala"
       }
     },
@@ -526746,7 +526746,7 @@
       },
       "properties": {
         "nombre": "1903900011135",
-        "valor_interpolado": 41.7,
+        "valor_interpolado": 42.02,
         "AQ": "Mala"
       }
     },
@@ -526913,7 +526913,7 @@
       },
       "properties": {
         "nombre": "190390001114A",
-        "valor_interpolado": 41.91,
+        "valor_interpolado": 41.7,
         "AQ": "Mala"
       }
     },
@@ -527299,7 +527299,7 @@
       },
       "properties": {
         "nombre": "1903900011169",
-        "valor_interpolado": 45.0,
+        "valor_interpolado": 43.8,
         "AQ": "Mala"
       }
     },
@@ -527570,7 +527570,7 @@
       },
       "properties": {
         "nombre": "1903900011192",
-        "valor_interpolado": 26.23,
+        "valor_interpolado": 25.54,
         "AQ": "Aceptable"
       }
     },
@@ -527805,7 +527805,7 @@
       },
       "properties": {
         "nombre": "1903900011205",
-        "valor_interpolado": 18.22,
+        "valor_interpolado": 17.74,
         "AQ": "Aceptable"
       }
     },
@@ -528020,7 +528020,7 @@
       },
       "properties": {
         "nombre": "1903900011243",
-        "valor_interpolado": 4.29,
+        "valor_interpolado": 4.21,
         "AQ": "Bueno"
       }
     },
@@ -528410,7 +528410,7 @@
       },
       "properties": {
         "nombre": "1903900011262",
-        "valor_interpolado": 21.65,
+        "valor_interpolado": 21.63,
         "AQ": "Aceptable"
       }
     },
@@ -528609,7 +528609,7 @@
       },
       "properties": {
         "nombre": "1903900011277",
-        "valor_interpolado": 29.2,
+        "valor_interpolado": 29.16,
         "AQ": "Aceptable"
       }
     },
@@ -528804,7 +528804,7 @@
       },
       "properties": {
         "nombre": "1903900011309",
-        "valor_interpolado": 49.76,
+        "valor_interpolado": 49.77,
         "AQ": "Mala"
       }
     },
@@ -529055,7 +529055,7 @@
       },
       "properties": {
         "nombre": "1903900011351",
-        "valor_interpolado": 45.6,
+        "valor_interpolado": 41.05,
         "AQ": "Mala"
       }
     },
@@ -529234,7 +529234,7 @@
       },
       "properties": {
         "nombre": "1903900011366",
-        "valor_interpolado": 42.67,
+        "valor_interpolado": 34.27,
         "AQ": "Mala"
       }
     },
@@ -529625,7 +529625,7 @@
       },
       "properties": {
         "nombre": "1903900011421",
-        "valor_interpolado": 37.37,
+        "valor_interpolado": 36.71,
         "AQ": "Mala"
       }
     },
@@ -529908,7 +529908,7 @@
       },
       "properties": {
         "nombre": "1903900011436",
-        "valor_interpolado": 29.71,
+        "valor_interpolado": 29.63,
         "AQ": "Aceptable"
       }
     },
@@ -530071,7 +530071,7 @@
       },
       "properties": {
         "nombre": "1903900011440",
-        "valor_interpolado": 26.26,
+        "valor_interpolado": 25.57,
         "AQ": "Aceptable"
       }
     },
@@ -530238,7 +530238,7 @@
       },
       "properties": {
         "nombre": "1903900011455",
-        "valor_interpolado": 40.36,
+        "valor_interpolado": 38.16,
         "AQ": "Mala"
       }
     },
@@ -530369,7 +530369,7 @@
       },
       "properties": {
         "nombre": "1903900011578",
-        "valor_interpolado": 48.15,
+        "valor_interpolado": 47.65,
         "AQ": "Mala"
       }
     },
@@ -530528,7 +530528,7 @@
       },
       "properties": {
         "nombre": "1903900011582",
-        "valor_interpolado": 55.1,
+        "valor_interpolado": 55.0,
         "AQ": "Mala"
       }
     },
@@ -531067,8 +531067,8 @@
       },
       "properties": {
         "nombre": "190390001160A",
-        "valor_interpolado": 40.25,
-        "AQ": "Mala"
+        "valor_interpolado": 16.9,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -531298,8 +531298,8 @@
       },
       "properties": {
         "nombre": "1903900011614",
-        "valor_interpolado": 38.17,
-        "AQ": "Mala"
+        "valor_interpolado": 12.64,
+        "AQ": "Bueno"
       }
     },
     {
@@ -531609,7 +531609,7 @@
       },
       "properties": {
         "nombre": "1903900011633",
-        "valor_interpolado": 42.0,
+        "valor_interpolado": 38.8,
         "AQ": "Mala"
       }
     },
@@ -531772,7 +531772,7 @@
       },
       "properties": {
         "nombre": "1903900011703",
-        "valor_interpolado": 42.64,
+        "valor_interpolado": 42.44,
         "AQ": "Mala"
       }
     },
@@ -531939,8 +531939,8 @@
       },
       "properties": {
         "nombre": "1903900011722",
-        "valor_interpolado": 15.25,
-        "AQ": "Aceptable"
+        "valor_interpolado": 14.55,
+        "AQ": "Bueno"
       }
     },
     {
@@ -532114,7 +532114,7 @@
       },
       "properties": {
         "nombre": "1903900011737",
-        "valor_interpolado": 7.84,
+        "valor_interpolado": 7.75,
         "AQ": "Bueno"
       }
     },
@@ -532261,7 +532261,7 @@
       },
       "properties": {
         "nombre": "1903900011741",
-        "valor_interpolado": 31.39,
+        "valor_interpolado": 30.23,
         "AQ": "Aceptable"
       }
     },
@@ -532428,7 +532428,7 @@
       },
       "properties": {
         "nombre": "1903900011756",
-        "valor_interpolado": 35.56,
+        "valor_interpolado": 35.06,
         "AQ": "Mala"
       }
     },
@@ -532643,8 +532643,8 @@
       },
       "properties": {
         "nombre": "1903900011794",
-        "valor_interpolado": 42.97,
-        "AQ": "Mala"
+        "valor_interpolado": 18.6,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -533154,7 +533154,7 @@
       },
       "properties": {
         "nombre": "1903900011845",
-        "valor_interpolado": 29.29,
+        "valor_interpolado": 28.21,
         "AQ": "Aceptable"
       }
     },
@@ -533409,7 +533409,7 @@
       },
       "properties": {
         "nombre": "190390001185A",
-        "valor_interpolado": 23.91,
+        "valor_interpolado": 22.92,
         "AQ": "Aceptable"
       }
     },
@@ -533544,7 +533544,7 @@
       },
       "properties": {
         "nombre": "1903900011879",
-        "valor_interpolado": 13.19,
+        "valor_interpolado": 13.1,
         "AQ": "Bueno"
       }
     },
@@ -533675,7 +533675,7 @@
       },
       "properties": {
         "nombre": "1903900011883",
-        "valor_interpolado": 26.86,
+        "valor_interpolado": 26.17,
         "AQ": "Aceptable"
       }
     },
@@ -533898,7 +533898,7 @@
       },
       "properties": {
         "nombre": "1903900011898",
-        "valor_interpolado": 25.25,
+        "valor_interpolado": 24.02,
         "AQ": "Aceptable"
       }
     },
@@ -534053,7 +534053,7 @@
       },
       "properties": {
         "nombre": "1903900011900",
-        "valor_interpolado": 32.91,
+        "valor_interpolado": 32.71,
         "AQ": "Aceptable"
       }
     },
@@ -534424,7 +534424,7 @@
       },
       "properties": {
         "nombre": "1903900012167",
-        "valor_interpolado": 26.96,
+        "valor_interpolado": 26.29,
         "AQ": "Aceptable"
       }
     },
@@ -534671,7 +534671,7 @@
       },
       "properties": {
         "nombre": "1903900012190",
-        "valor_interpolado": 30.59,
+        "valor_interpolado": 30.96,
         "AQ": "Aceptable"
       }
     },
@@ -535290,7 +535290,7 @@
       },
       "properties": {
         "nombre": "1903900012218",
-        "valor_interpolado": 33.99,
+        "valor_interpolado": 35.13,
         "AQ": "Mala"
       }
     },
@@ -536273,7 +536273,7 @@
       },
       "properties": {
         "nombre": "1903900012241",
-        "valor_interpolado": 37.63,
+        "valor_interpolado": 38.82,
         "AQ": "Mala"
       }
     },
@@ -536744,7 +536744,7 @@
       },
       "properties": {
         "nombre": "1903900012275",
-        "valor_interpolado": 38.94,
+        "valor_interpolado": 38.81,
         "AQ": "Mala"
       }
     },
@@ -537071,7 +537071,7 @@
       },
       "properties": {
         "nombre": "1903900012472",
-        "valor_interpolado": 22.7,
+        "valor_interpolado": 22.77,
         "AQ": "Aceptable"
       }
     },
@@ -537366,7 +537366,7 @@
       },
       "properties": {
         "nombre": "190390001267A",
-        "valor_interpolado": 14.04,
+        "valor_interpolado": 14.99,
         "AQ": "Bueno"
       }
     },
@@ -537929,7 +537929,7 @@
       },
       "properties": {
         "nombre": "1903900012684",
-        "valor_interpolado": 10.59,
+        "valor_interpolado": 11.74,
         "AQ": "Bueno"
       }
     },
@@ -538176,7 +538176,7 @@
       },
       "properties": {
         "nombre": "1903900012720",
-        "valor_interpolado": 51.27,
+        "valor_interpolado": 43.48,
         "AQ": "Mala"
       }
     },
@@ -538347,7 +538347,7 @@
       },
       "properties": {
         "nombre": "190390001274A",
-        "valor_interpolado": 48.88,
+        "valor_interpolado": 36.0,
         "AQ": "Mala"
       }
     },
@@ -538698,8 +538698,8 @@
       },
       "properties": {
         "nombre": "1903900012754",
-        "valor_interpolado": 44.39,
-        "AQ": "Mala"
+        "valor_interpolado": 24.57,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -539093,8 +539093,8 @@
       },
       "properties": {
         "nombre": "1903900012788",
-        "valor_interpolado": 33.15,
-        "AQ": "Mala"
+        "valor_interpolado": 32.45,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -539800,7 +539800,7 @@
       },
       "properties": {
         "nombre": "190390001281A",
-        "valor_interpolado": 21.5,
+        "valor_interpolado": 22.3,
         "AQ": "Aceptable"
       }
     },
@@ -540115,7 +540115,7 @@
       },
       "properties": {
         "nombre": "1903900012877",
-        "valor_interpolado": 29.31,
+        "valor_interpolado": 29.63,
         "AQ": "Aceptable"
       }
     },
@@ -542271,7 +542271,7 @@
       },
       "properties": {
         "nombre": "1903900013396",
-        "valor_interpolado": 4.05,
+        "valor_interpolado": 4.0,
         "AQ": "Bueno"
       }
     },
@@ -542586,7 +542586,7 @@
       },
       "properties": {
         "nombre": "1903900013451",
-        "valor_interpolado": 10.08,
+        "valor_interpolado": 9.92,
         "AQ": "Bueno"
       }
     },
@@ -544137,7 +544137,7 @@
       },
       "properties": {
         "nombre": "1903900013555",
-        "valor_interpolado": 8.74,
+        "valor_interpolado": 9.6,
         "AQ": "Bueno"
       }
     },
@@ -544551,7 +544551,7 @@
       },
       "properties": {
         "nombre": "1903900013593",
-        "valor_interpolado": 20.29,
+        "valor_interpolado": 19.78,
         "AQ": "Aceptable"
       }
     },
@@ -544762,7 +544762,7 @@
       },
       "properties": {
         "nombre": "1903900013606",
-        "valor_interpolado": 19.17,
+        "valor_interpolado": 18.68,
         "AQ": "Aceptable"
       }
     },
@@ -544945,7 +544945,7 @@
       },
       "properties": {
         "nombre": "1903900013610",
-        "valor_interpolado": 13.03,
+        "valor_interpolado": 12.71,
         "AQ": "Bueno"
       }
     },
@@ -545260,7 +545260,7 @@
       },
       "properties": {
         "nombre": "1903900013659",
-        "valor_interpolado": 21.03,
+        "valor_interpolado": 20.68,
         "AQ": "Aceptable"
       }
     },
@@ -546604,7 +546604,7 @@
       },
       "properties": {
         "nombre": "190390001406A",
-        "valor_interpolado": 5.65,
+        "valor_interpolado": 5.61,
         "AQ": "Bueno"
       }
     },
@@ -546923,7 +546923,7 @@
       },
       "properties": {
         "nombre": "1903900014093",
-        "valor_interpolado": 19.99,
+        "valor_interpolado": 19.47,
         "AQ": "Aceptable"
       }
     },
@@ -547242,7 +547242,7 @@
       },
       "properties": {
         "nombre": "1903900014144",
-        "valor_interpolado": 36.57,
+        "valor_interpolado": 33.95,
         "AQ": "Mala"
       }
     },
@@ -547489,7 +547489,7 @@
       },
       "properties": {
         "nombre": "1903900014159",
-        "valor_interpolado": 26.28,
+        "valor_interpolado": 24.65,
         "AQ": "Aceptable"
       }
     },
@@ -549194,7 +549194,7 @@
       },
       "properties": {
         "nombre": "1903900014500",
-        "valor_interpolado": 20.7,
+        "valor_interpolado": 20.16,
         "AQ": "Aceptable"
       }
     },
@@ -549569,7 +549569,7 @@
       },
       "properties": {
         "nombre": "1903900014515",
-        "valor_interpolado": 24.79,
+        "valor_interpolado": 24.14,
         "AQ": "Aceptable"
       }
     },
@@ -549760,7 +549760,7 @@
       },
       "properties": {
         "nombre": "1903900014549",
-        "valor_interpolado": 17.05,
+        "valor_interpolado": 16.68,
         "AQ": "Aceptable"
       }
     },
@@ -549971,7 +549971,7 @@
       },
       "properties": {
         "nombre": "1903900014553",
-        "valor_interpolado": 14.25,
+        "valor_interpolado": 13.97,
         "AQ": "Bueno"
       }
     },
@@ -550505,7 +550505,7 @@
       },
       "properties": {
         "nombre": "1903900014619",
-        "valor_interpolado": 31.28,
+        "valor_interpolado": 31.48,
         "AQ": "Aceptable"
       }
     },
@@ -550668,7 +550668,7 @@
       },
       "properties": {
         "nombre": "1903900014623",
-        "valor_interpolado": 17.23,
+        "valor_interpolado": 16.76,
         "AQ": "Aceptable"
       }
     },
@@ -551071,8 +551071,8 @@
       },
       "properties": {
         "nombre": "1903900014731",
-        "valor_interpolado": 35.72,
-        "AQ": "Mala"
+        "valor_interpolado": 23.61,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -552546,7 +552546,7 @@
       },
       "properties": {
         "nombre": "1903900014905",
-        "valor_interpolado": 36.2,
+        "valor_interpolado": 37.37,
         "AQ": "Mala"
       }
     },
@@ -552781,7 +552781,7 @@
       },
       "properties": {
         "nombre": "190390001491A",
-        "valor_interpolado": 20.62,
+        "valor_interpolado": 22.07,
         "AQ": "Aceptable"
       }
     },
@@ -553512,7 +553512,7 @@
       },
       "properties": {
         "nombre": "1903900014924",
-        "valor_interpolado": 41.8,
+        "valor_interpolado": 43.2,
         "AQ": "Mala"
       }
     },
@@ -553895,7 +553895,7 @@
       },
       "properties": {
         "nombre": "1903900014939",
-        "valor_interpolado": 42.33,
+        "valor_interpolado": 43.12,
         "AQ": "Mala"
       }
     },
@@ -554900,7 +554900,7 @@
       },
       "properties": {
         "nombre": "1903900015142",
-        "valor_interpolado": 20.69,
+        "valor_interpolado": 22.48,
         "AQ": "Aceptable"
       }
     },
@@ -560873,7 +560873,7 @@
       },
       "properties": {
         "nombre": "1903900011385",
-        "valor_interpolado": 48.2,
+        "valor_interpolado": 43.37,
         "AQ": "Mala"
       }
     },
@@ -562755,7 +562755,7 @@
       },
       "properties": {
         "nombre": "1903900012805",
-        "valor_interpolado": 24.67,
+        "valor_interpolado": 25.06,
         "AQ": "Aceptable"
       }
     },
@@ -563585,7 +563585,7 @@
       },
       "properties": {
         "nombre": "1903900011826",
-        "valor_interpolado": 34.51,
+        "valor_interpolado": 34.1,
         "AQ": "Mala"
       }
     },
@@ -564364,7 +564364,7 @@
       },
       "properties": {
         "nombre": "1903900012468",
-        "valor_interpolado": 18.85,
+        "valor_interpolado": 18.59,
         "AQ": "Aceptable"
       }
     },
@@ -567824,7 +567824,7 @@
       },
       "properties": {
         "nombre": "1903900012133",
-        "valor_interpolado": 19.62,
+        "valor_interpolado": 18.85,
         "AQ": "Aceptable"
       }
     },
@@ -568163,7 +568163,7 @@
       },
       "properties": {
         "nombre": "1903900014182",
-        "valor_interpolado": 20.73,
+        "valor_interpolado": 19.94,
         "AQ": "Aceptable"
       }
     },
@@ -568438,7 +568438,7 @@
       },
       "properties": {
         "nombre": "1903900012152",
-        "valor_interpolado": 24.89,
+        "valor_interpolado": 24.35,
         "AQ": "Aceptable"
       }
     },
@@ -568809,7 +568809,7 @@
       },
       "properties": {
         "nombre": "1903900012082",
-        "valor_interpolado": 21.5,
+        "valor_interpolado": 20.63,
         "AQ": "Aceptable"
       }
     },
@@ -569108,7 +569108,7 @@
       },
       "properties": {
         "nombre": "1903900013663",
-        "valor_interpolado": 26.07,
+        "valor_interpolado": 25.7,
         "AQ": "Aceptable"
       }
     },
@@ -569383,7 +569383,7 @@
       },
       "properties": {
         "nombre": "1903900013714",
-        "valor_interpolado": 35.19,
+        "valor_interpolado": 35.86,
         "AQ": "Mala"
       }
     },
@@ -569858,7 +569858,7 @@
       },
       "properties": {
         "nombre": "1903900012858",
-        "valor_interpolado": 36.62,
+        "valor_interpolado": 36.84,
         "AQ": "Mala"
       }
     },
@@ -570233,7 +570233,7 @@
       },
       "properties": {
         "nombre": "1903900012839",
-        "valor_interpolado": 26.59,
+        "valor_interpolado": 27.14,
         "AQ": "Aceptable"
       }
     },
@@ -570624,7 +570624,7 @@
       },
       "properties": {
         "nombre": "1903900012843",
-        "valor_interpolado": 30.94,
+        "valor_interpolado": 31.37,
         "AQ": "Aceptable"
       }
     },
@@ -570887,7 +570887,7 @@
       },
       "properties": {
         "nombre": "1903900012862",
-        "valor_interpolado": 28.04,
+        "valor_interpolado": 28.47,
         "AQ": "Aceptable"
       }
     },
@@ -571302,7 +571302,7 @@
       },
       "properties": {
         "nombre": "1903900013733",
-        "valor_interpolado": 35.96,
+        "valor_interpolado": 36.31,
         "AQ": "Mala"
       }
     },
@@ -576946,7 +576946,7 @@
       },
       "properties": {
         "nombre": "1903900012294",
-        "valor_interpolado": 38.63,
+        "valor_interpolado": 38.89,
         "AQ": "Mala"
       }
     },
@@ -577281,7 +577281,7 @@
       },
       "properties": {
         "nombre": "190390001228A",
-        "valor_interpolado": 33.76,
+        "valor_interpolado": 34.02,
         "AQ": "Mala"
       }
     },
@@ -577624,7 +577624,7 @@
       },
       "properties": {
         "nombre": "1903900010423",
-        "valor_interpolado": 10.52,
+        "valor_interpolado": 10.37,
         "AQ": "Bueno"
       }
     },
@@ -577915,7 +577915,7 @@
       },
       "properties": {
         "nombre": "1903900010334",
-        "valor_interpolado": 6.78,
+        "valor_interpolado": 6.75,
         "AQ": "Bueno"
       }
     },
@@ -580645,7 +580645,7 @@
       },
       "properties": {
         "nombre": "1903900013748",
-        "valor_interpolado": 34.59,
+        "valor_interpolado": 34.86,
         "AQ": "Mala"
       }
     },
@@ -580796,7 +580796,7 @@
       },
       "properties": {
         "nombre": "1903900011050",
-        "valor_interpolado": 38.33,
+        "valor_interpolado": 38.62,
         "AQ": "Mala"
       }
     },
@@ -581131,7 +581131,7 @@
       },
       "properties": {
         "nombre": "1903900011116",
-        "valor_interpolado": 42.65,
+        "valor_interpolado": 43.16,
         "AQ": "Mala"
       }
     },
@@ -581330,7 +581330,7 @@
       },
       "properties": {
         "nombre": "1903900010809",
-        "valor_interpolado": 20.89,
+        "valor_interpolado": 20.86,
         "AQ": "Aceptable"
       }
     },
@@ -581617,7 +581617,7 @@
       },
       "properties": {
         "nombre": "1903900010989",
-        "valor_interpolado": 25.15,
+        "valor_interpolado": 25.11,
         "AQ": "Aceptable"
       }
     },
@@ -581868,7 +581868,7 @@
       },
       "properties": {
         "nombre": "1903900010851",
-        "valor_interpolado": 35.46,
+        "valor_interpolado": 35.79,
         "AQ": "Mala"
       }
     },
@@ -582805,7 +582805,7 @@
       },
       "properties": {
         "nombre": "1903900013413",
-        "valor_interpolado": 5.62,
+        "valor_interpolado": 6.08,
         "AQ": "Bueno"
       }
     },
@@ -584583,7 +584583,7 @@
       },
       "properties": {
         "nombre": "1903900010137",
-        "valor_interpolado": 2.99,
+        "valor_interpolado": 3.63,
         "AQ": "Bueno"
       }
     },
@@ -584974,7 +584974,7 @@
       },
       "properties": {
         "nombre": "1903900010141",
-        "valor_interpolado": 15.27,
+        "valor_interpolado": 15.62,
         "AQ": "Aceptable"
       }
     },
@@ -585173,7 +585173,7 @@
       },
       "properties": {
         "nombre": "1903900010762",
-        "valor_interpolado": 17.97,
+        "valor_interpolado": 17.58,
         "AQ": "Aceptable"
       }
     },
@@ -585480,7 +585480,7 @@
       },
       "properties": {
         "nombre": "1903900010245",
-        "valor_interpolado": 15.62,
+        "valor_interpolado": 16.29,
         "AQ": "Aceptable"
       }
     },
@@ -585779,7 +585779,7 @@
       },
       "properties": {
         "nombre": "1903900014106",
-        "valor_interpolado": 21.71,
+        "valor_interpolado": 21.58,
         "AQ": "Aceptable"
       }
     },
@@ -586002,7 +586002,7 @@
       },
       "properties": {
         "nombre": "1903900014110",
-        "valor_interpolado": 25.55,
+        "valor_interpolado": 25.59,
         "AQ": "Aceptable"
       }
     },
@@ -586165,7 +586165,7 @@
       },
       "properties": {
         "nombre": "1903900010921",
-        "valor_interpolado": 22.96,
+        "valor_interpolado": 22.41,
         "AQ": "Aceptable"
       }
     },
@@ -586516,7 +586516,7 @@
       },
       "properties": {
         "nombre": "1903900010669",
-        "valor_interpolado": 29.25,
+        "valor_interpolado": 28.55,
         "AQ": "Aceptable"
       }
     },
@@ -587597,7 +587597,7 @@
       },
       "properties": {
         "nombre": "1903900010067",
-        "valor_interpolado": 8.83,
+        "valor_interpolado": 8.95,
         "AQ": "Bueno"
       }
     },
@@ -588147,7 +588147,7 @@
       },
       "properties": {
         "nombre": "1903900013729",
-        "valor_interpolado": 34.6,
+        "valor_interpolado": 34.96,
         "AQ": "Mala"
       }
     },
@@ -588486,7 +588486,7 @@
       },
       "properties": {
         "nombre": "1903900010688",
-        "valor_interpolado": 12.25,
+        "valor_interpolado": 12.06,
         "AQ": "Bueno"
       }
     },
@@ -588805,7 +588805,7 @@
       },
       "properties": {
         "nombre": "1903900010584",
-        "valor_interpolado": 14.56,
+        "valor_interpolado": 14.32,
         "AQ": "Bueno"
       }
     },
@@ -589244,7 +589244,7 @@
       },
       "properties": {
         "nombre": "1903900011417",
-        "valor_interpolado": 41.87,
+        "valor_interpolado": 41.95,
         "AQ": "Mala"
       }
     },
@@ -589879,7 +589879,7 @@
       },
       "properties": {
         "nombre": "1903900013837",
-        "valor_interpolado": 42.05,
+        "valor_interpolado": 44.06,
         "AQ": "Mala"
       }
     },
@@ -591017,7 +591017,7 @@
       },
       "properties": {
         "nombre": "190390001370A",
-        "valor_interpolado": 34.2,
+        "valor_interpolado": 34.87,
         "AQ": "Mala"
       }
     },
@@ -591388,7 +591388,7 @@
       },
       "properties": {
         "nombre": "1903900013930",
-        "valor_interpolado": 8.95,
+        "valor_interpolado": 11.46,
         "AQ": "Bueno"
       }
     },
@@ -591947,7 +591947,7 @@
       },
       "properties": {
         "nombre": "1903900014055",
-        "valor_interpolado": 4.04,
+        "valor_interpolado": 4.09,
         "AQ": "Bueno"
       }
     },
@@ -592454,7 +592454,7 @@
       },
       "properties": {
         "nombre": "190390001420A",
-        "valor_interpolado": 21.7,
+        "valor_interpolado": 21.28,
         "AQ": "Aceptable"
       }
     },
@@ -593001,7 +593001,7 @@
       },
       "properties": {
         "nombre": "1903900014197",
-        "valor_interpolado": 21.43,
+        "valor_interpolado": 20.85,
         "AQ": "Aceptable"
       }
     },
@@ -594662,7 +594662,7 @@
       },
       "properties": {
         "nombre": "1903900011084",
-        "valor_interpolado": 40.0,
+        "valor_interpolado": 40.38,
         "AQ": "Mala"
       }
     },
@@ -594817,7 +594817,7 @@
       },
       "properties": {
         "nombre": "1903900010847",
-        "valor_interpolado": 30.89,
+        "valor_interpolado": 31.05,
         "AQ": "Aceptable"
       }
     },
@@ -595048,7 +595048,7 @@
       },
       "properties": {
         "nombre": "1903900010993",
-        "valor_interpolado": 37.04,
+        "valor_interpolado": 37.08,
         "AQ": "Mala"
       }
     },
@@ -595271,7 +595271,7 @@
       },
       "properties": {
         "nombre": "1903900010372",
-        "valor_interpolado": 23.76,
+        "valor_interpolado": 23.41,
         "AQ": "Aceptable"
       }
     },
@@ -595414,7 +595414,7 @@
       },
       "properties": {
         "nombre": "1903900011031",
-        "valor_interpolado": 38.24,
+        "valor_interpolado": 38.46,
         "AQ": "Mala"
       }
     },
@@ -595581,7 +595581,7 @@
       },
       "properties": {
         "nombre": "1903900010902",
-        "valor_interpolado": 36.32,
+        "valor_interpolado": 35.38,
         "AQ": "Mala"
       }
     },
@@ -595748,7 +595748,7 @@
       },
       "properties": {
         "nombre": "1903900010777",
-        "valor_interpolado": 11.36,
+        "valor_interpolado": 11.16,
         "AQ": "Bueno"
       }
     },
@@ -595915,7 +595915,7 @@
       },
       "properties": {
         "nombre": "1903900010781",
-        "valor_interpolado": 5.93,
+        "valor_interpolado": 5.88,
         "AQ": "Bueno"
       }
     },
@@ -596086,7 +596086,7 @@
       },
       "properties": {
         "nombre": "1903900014572",
-        "valor_interpolado": 45.56,
+        "valor_interpolado": 45.53,
         "AQ": "Mala"
       }
     },
@@ -596357,7 +596357,7 @@
       },
       "properties": {
         "nombre": "1903900014676",
-        "valor_interpolado": 31.38,
+        "valor_interpolado": 30.79,
         "AQ": "Aceptable"
       }
     },
@@ -596712,7 +596712,7 @@
       },
       "properties": {
         "nombre": "190390001025A",
-        "valor_interpolado": 17.67,
+        "valor_interpolado": 17.87,
         "AQ": "Aceptable"
       }
     },
@@ -597027,7 +597027,7 @@
       },
       "properties": {
         "nombre": "1903900010495",
-        "valor_interpolado": 28.49,
+        "valor_interpolado": 27.74,
         "AQ": "Aceptable"
       }
     },
@@ -597210,7 +597210,7 @@
       },
       "properties": {
         "nombre": "1903900010917",
-        "valor_interpolado": 29.58,
+        "valor_interpolado": 28.84,
         "AQ": "Aceptable"
       }
     },
@@ -597397,7 +597397,7 @@
       },
       "properties": {
         "nombre": "1903900010955",
-        "valor_interpolado": 11.85,
+        "valor_interpolado": 11.61,
         "AQ": "Bueno"
       }
     },
@@ -597680,7 +597680,7 @@
       },
       "properties": {
         "nombre": "1903900013697",
-        "valor_interpolado": 34.22,
+        "valor_interpolado": 35.22,
         "AQ": "Mala"
       }
     },
@@ -598234,7 +598234,7 @@
       },
       "properties": {
         "nombre": "1903900013860",
-        "valor_interpolado": 4.53,
+        "valor_interpolado": 4.5,
         "AQ": "Bueno"
       }
     },
@@ -598931,7 +598931,7 @@
       },
       "properties": {
         "nombre": "1903900015439",
-        "valor_interpolado": 27.06,
+        "valor_interpolado": 28.28,
         "AQ": "Aceptable"
       }
     },
@@ -599058,7 +599058,7 @@
       },
       "properties": {
         "nombre": "1903900015123",
-        "valor_interpolado": 8.4,
+        "valor_interpolado": 11.2,
         "AQ": "Bueno"
       }
     },
@@ -599157,7 +599157,7 @@
       },
       "properties": {
         "nombre": "1903900011027",
-        "valor_interpolado": 41.69,
+        "valor_interpolado": 41.77,
         "AQ": "Mala"
       }
     },
@@ -600508,7 +600508,7 @@
       },
       "properties": {
         "nombre": "1903900014036",
-        "valor_interpolado": 5.72,
+        "valor_interpolado": 7.1,
         "AQ": "Bueno"
       }
     },
@@ -601138,7 +601138,7 @@
       },
       "properties": {
         "nombre": "1903900015284",
-        "valor_interpolado": 24.5,
+        "valor_interpolado": 25.87,
         "AQ": "Aceptable"
       }
     },
@@ -601349,7 +601349,7 @@
       },
       "properties": {
         "nombre": "190390001477A",
-        "valor_interpolado": 37.61,
+        "valor_interpolado": 38.89,
         "AQ": "Mala"
       }
     },
@@ -602410,7 +602410,7 @@
       },
       "properties": {
         "nombre": "1903900014002",
-        "valor_interpolado": 9.84,
+        "valor_interpolado": 13.51,
         "AQ": "Bueno"
       }
     },
@@ -605360,7 +605360,7 @@
       },
       "properties": {
         "nombre": "1903900011008",
-        "valor_interpolado": 41.69,
+        "valor_interpolado": 41.64,
         "AQ": "Mala"
       }
     },
@@ -605555,7 +605555,7 @@
       },
       "properties": {
         "nombre": "1903900011313",
-        "valor_interpolado": 46.96,
+        "valor_interpolado": 47.06,
         "AQ": "Mala"
       }
     },
@@ -605834,8 +605834,8 @@
       },
       "properties": {
         "nombre": "190390001139A",
-        "valor_interpolado": 41.71,
-        "AQ": "Mala"
+        "valor_interpolado": 27.93,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -606185,8 +606185,8 @@
       },
       "properties": {
         "nombre": "1903900011402",
-        "valor_interpolado": 37.18,
-        "AQ": "Mala"
+        "valor_interpolado": 21.3,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -607398,7 +607398,7 @@
       },
       "properties": {
         "nombre": "1903900013822",
-        "valor_interpolado": 39.41,
+        "valor_interpolado": 40.21,
         "AQ": "Mala"
       }
     },
@@ -607653,7 +607653,7 @@
       },
       "properties": {
         "nombre": "1903900013964",
-        "valor_interpolado": 34.92,
+        "valor_interpolado": 34.89,
         "AQ": "Mala"
       }
     },
@@ -609008,7 +609008,7 @@
       },
       "properties": {
         "nombre": "1903900014125",
-        "valor_interpolado": 28.47,
+        "valor_interpolado": 28.3,
         "AQ": "Aceptable"
       }
     },
@@ -612662,7 +612662,7 @@
       },
       "properties": {
         "nombre": "190390001452A",
-        "valor_interpolado": 17.78,
+        "valor_interpolado": 23.74,
         "AQ": "Aceptable"
       }
     },
@@ -612881,7 +612881,7 @@
       },
       "properties": {
         "nombre": "190390001413A",
-        "valor_interpolado": 29.65,
+        "valor_interpolado": 29.55,
         "AQ": "Aceptable"
       }
     },
@@ -614836,7 +614836,7 @@
       },
       "properties": {
         "nombre": "1903900010461",
-        "valor_interpolado": 26.99,
+        "valor_interpolado": 27.53,
         "AQ": "Aceptable"
       }
     },
@@ -616649,7 +616649,7 @@
       },
       "properties": {
         "nombre": "1903900014534",
-        "valor_interpolado": 12.07,
+        "valor_interpolado": 14.95,
         "AQ": "Bueno"
       }
     },
@@ -624706,7 +624706,7 @@
       },
       "properties": {
         "nombre": "1903900013767",
-        "valor_interpolado": 36.23,
+        "valor_interpolado": 36.34,
         "AQ": "Mala"
       }
     },
@@ -625117,7 +625117,7 @@
       },
       "properties": {
         "nombre": "1903900012345",
-        "valor_interpolado": 35.76,
+        "valor_interpolado": 35.9,
         "AQ": "Mala"
       }
     },
@@ -626182,7 +626182,7 @@
       },
       "properties": {
         "nombre": "1903900011629",
-        "valor_interpolado": 42.16,
+        "valor_interpolado": 41.94,
         "AQ": "Mala"
       }
     },
@@ -671793,7 +671793,7 @@
       },
       "properties": {
         "nombre": "1904600010362",
-        "valor_interpolado": 40.94,
+        "valor_interpolado": 41.76,
         "AQ": "Mala"
       }
     },
@@ -672072,7 +672072,7 @@
       },
       "properties": {
         "nombre": "1904600011483",
-        "valor_interpolado": 22.47,
+        "valor_interpolado": 22.81,
         "AQ": "Aceptable"
       }
     },
@@ -672447,7 +672447,7 @@
       },
       "properties": {
         "nombre": "1904600011638",
-        "valor_interpolado": 29.38,
+        "valor_interpolado": 30.13,
         "AQ": "Aceptable"
       }
     },
@@ -672682,7 +672682,7 @@
       },
       "properties": {
         "nombre": "1904600010998",
-        "valor_interpolado": 35.78,
+        "valor_interpolado": 36.06,
         "AQ": "Mala"
       }
     },
@@ -672865,7 +672865,7 @@
       },
       "properties": {
         "nombre": "1904600011676",
-        "valor_interpolado": 23.66,
+        "valor_interpolado": 23.81,
         "AQ": "Aceptable"
       }
     },
@@ -673264,8 +673264,8 @@
       },
       "properties": {
         "nombre": "1904600010216",
-        "valor_interpolado": 14.61,
-        "AQ": "Bueno"
+        "valor_interpolado": 17.59,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -673567,7 +673567,7 @@
       },
       "properties": {
         "nombre": "1904600010536",
-        "valor_interpolado": 31.38,
+        "valor_interpolado": 31.59,
         "AQ": "Aceptable"
       }
     },
@@ -673866,7 +673866,7 @@
       },
       "properties": {
         "nombre": "1904600011708",
-        "valor_interpolado": 19.9,
+        "valor_interpolado": 20.12,
         "AQ": "Aceptable"
       }
     },
@@ -674209,7 +674209,7 @@
       },
       "properties": {
         "nombre": "190460001070A",
-        "valor_interpolado": 17.0,
+        "valor_interpolado": 17.13,
         "AQ": "Aceptable"
       }
     },
@@ -674424,7 +674424,7 @@
       },
       "properties": {
         "nombre": "1904600011375",
-        "valor_interpolado": 24.62,
+        "valor_interpolado": 25.1,
         "AQ": "Aceptable"
       }
     },
@@ -674799,8 +674799,8 @@
       },
       "properties": {
         "nombre": "1904600011286",
-        "valor_interpolado": 37.18,
-        "AQ": "Mala"
+        "valor_interpolado": 32.08,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -675026,7 +675026,7 @@
       },
       "properties": {
         "nombre": "1904600011623",
-        "valor_interpolado": 29.3,
+        "valor_interpolado": 30.09,
         "AQ": "Aceptable"
       }
     },
@@ -675257,7 +675257,7 @@
       },
       "properties": {
         "nombre": "1904600010786",
-        "valor_interpolado": 25.22,
+        "valor_interpolado": 25.78,
         "AQ": "Aceptable"
       }
     },
@@ -675512,7 +675512,7 @@
       },
       "properties": {
         "nombre": "190460001024A",
-        "valor_interpolado": 16.09,
+        "valor_interpolado": 16.35,
         "AQ": "Aceptable"
       }
     },
@@ -675743,8 +675743,8 @@
       },
       "properties": {
         "nombre": "1904600010875",
-        "valor_interpolado": 33.3,
-        "AQ": "Mala"
+        "valor_interpolado": 32.72,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -675910,7 +675910,7 @@
       },
       "properties": {
         "nombre": "1904600010324",
-        "valor_interpolado": 29.99,
+        "valor_interpolado": 30.45,
         "AQ": "Aceptable"
       }
     },
@@ -676101,7 +676101,7 @@
       },
       "properties": {
         "nombre": "1904600011233",
-        "valor_interpolado": 27.42,
+        "valor_interpolado": 28.13,
         "AQ": "Aceptable"
       }
     },
@@ -676348,7 +676348,7 @@
       },
       "properties": {
         "nombre": "1904600010131",
-        "valor_interpolado": 28.2,
+        "valor_interpolado": 32.21,
         "AQ": "Aceptable"
       }
     },
@@ -676567,7 +676567,7 @@
       },
       "properties": {
         "nombre": "1904600010184",
-        "valor_interpolado": 26.94,
+        "valor_interpolado": 29.68,
         "AQ": "Aceptable"
       }
     },
@@ -677309,8 +677309,8 @@
       },
       "properties": {
         "nombre": "1904600010466",
-        "valor_interpolado": 29.49,
-        "AQ": "Aceptable"
+        "valor_interpolado": 37.55,
+        "AQ": "Mala"
       }
     },
     {
@@ -677556,7 +677556,7 @@
       },
       "properties": {
         "nombre": "190460001049A",
-        "valor_interpolado": 18.98,
+        "valor_interpolado": 24.62,
         "AQ": "Aceptable"
       }
     },
@@ -677763,7 +677763,7 @@
       },
       "properties": {
         "nombre": "1904600011407",
-        "valor_interpolado": 32.71,
+        "valor_interpolado": 32.66,
         "AQ": "Aceptable"
       }
     },
@@ -678126,7 +678126,7 @@
       },
       "properties": {
         "nombre": "1904600011642",
-        "valor_interpolado": 26.79,
+        "valor_interpolado": 26.71,
         "AQ": "Aceptable"
       }
     },
@@ -678361,7 +678361,7 @@
       },
       "properties": {
         "nombre": "1904600011731",
-        "valor_interpolado": 33.94,
+        "valor_interpolado": 33.23,
         "AQ": "Mala"
       }
     },
@@ -678544,7 +678544,7 @@
       },
       "properties": {
         "nombre": "1904600010108",
-        "valor_interpolado": 27.79,
+        "valor_interpolado": 27.51,
         "AQ": "Aceptable"
       }
     },
@@ -678779,8 +678779,8 @@
       },
       "properties": {
         "nombre": "1904600010127",
-        "valor_interpolado": 33.07,
-        "AQ": "Mala"
+        "valor_interpolado": 32.87,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -678966,7 +678966,7 @@
       },
       "properties": {
         "nombre": "1904600010292",
-        "valor_interpolado": 17.21,
+        "valor_interpolado": 17.32,
         "AQ": "Aceptable"
       }
     },
@@ -679125,7 +679125,7 @@
       },
       "properties": {
         "nombre": "1904600010714",
-        "valor_interpolado": 31.26,
+        "valor_interpolado": 32.25,
         "AQ": "Aceptable"
       }
     },
@@ -679396,7 +679396,7 @@
       },
       "properties": {
         "nombre": "1904600010860",
-        "valor_interpolado": 35.53,
+        "valor_interpolado": 35.03,
         "AQ": "Mala"
       }
     },
@@ -679627,8 +679627,8 @@
       },
       "properties": {
         "nombre": "1904600011002",
-        "valor_interpolado": 32.93,
-        "AQ": "Aceptable"
+        "valor_interpolado": 33.38,
+        "AQ": "Mala"
       }
     },
     {
@@ -679790,7 +679790,7 @@
       },
       "properties": {
         "nombre": "190460001120A",
-        "valor_interpolado": 23.01,
+        "valor_interpolado": 23.66,
         "AQ": "Aceptable"
       }
     },
@@ -680041,7 +680041,7 @@
       },
       "properties": {
         "nombre": "1904600011341",
-        "valor_interpolado": 29.65,
+        "valor_interpolado": 30.58,
         "AQ": "Aceptable"
       }
     },
@@ -680212,7 +680212,7 @@
       },
       "properties": {
         "nombre": "1904600011426",
-        "valor_interpolado": 34.76,
+        "valor_interpolado": 34.92,
         "AQ": "Mala"
       }
     },
@@ -680675,7 +680675,7 @@
       },
       "properties": {
         "nombre": "190460001177A",
-        "valor_interpolado": 37.5,
+        "valor_interpolado": 52.2,
         "AQ": "Mala"
       }
     },
@@ -680946,7 +680946,7 @@
       },
       "properties": {
         "nombre": "1904600010042",
-        "valor_interpolado": 24.27,
+        "valor_interpolado": 25.77,
         "AQ": "Aceptable"
       }
     },
@@ -681125,7 +681125,7 @@
       },
       "properties": {
         "nombre": "1904600010057",
-        "valor_interpolado": 23.7,
+        "valor_interpolado": 23.66,
         "AQ": "Aceptable"
       }
     },
@@ -681384,7 +681384,7 @@
       },
       "properties": {
         "nombre": "1904600010076",
-        "valor_interpolado": 33.73,
+        "valor_interpolado": 33.33,
         "AQ": "Mala"
       }
     },
@@ -681575,7 +681575,7 @@
       },
       "properties": {
         "nombre": "1904600010095",
-        "valor_interpolado": 25.85,
+        "valor_interpolado": 25.68,
         "AQ": "Aceptable"
       }
     },
@@ -681854,7 +681854,7 @@
       },
       "properties": {
         "nombre": "1904600010146",
-        "valor_interpolado": 27.59,
+        "valor_interpolado": 27.35,
         "AQ": "Aceptable"
       }
     },
@@ -682317,7 +682317,7 @@
       },
       "properties": {
         "nombre": "190460001017A",
-        "valor_interpolado": 32.4,
+        "valor_interpolado": 32.3,
         "AQ": "Aceptable"
       }
     },
@@ -682644,7 +682644,7 @@
       },
       "properties": {
         "nombre": "1904600010201",
-        "valor_interpolado": 28.51,
+        "valor_interpolado": 28.45,
         "AQ": "Aceptable"
       }
     },
@@ -683258,7 +683258,7 @@
       },
       "properties": {
         "nombre": "190460001031A",
-        "valor_interpolado": 29.54,
+        "valor_interpolado": 30.07,
         "AQ": "Aceptable"
       }
     },
@@ -683597,7 +683597,7 @@
       },
       "properties": {
         "nombre": "1904600010343",
-        "valor_interpolado": 34.61,
+        "valor_interpolado": 35.49,
         "AQ": "Mala"
       }
     },
@@ -684084,7 +684084,7 @@
       },
       "properties": {
         "nombre": "1904600010381",
-        "valor_interpolado": 42.29,
+        "valor_interpolado": 42.99,
         "AQ": "Mala"
       }
     },
@@ -684515,7 +684515,7 @@
       },
       "properties": {
         "nombre": "1904600010413",
-        "valor_interpolado": 33.12,
+        "valor_interpolado": 43.18,
         "AQ": "Mala"
       }
     },
@@ -684818,8 +684818,8 @@
       },
       "properties": {
         "nombre": "1904600010485",
-        "valor_interpolado": 12.99,
-        "AQ": "Bueno"
+        "valor_interpolado": 16.12,
+        "AQ": "Aceptable"
       }
     },
     {
@@ -685105,7 +685105,7 @@
       },
       "properties": {
         "nombre": "1904600010540",
-        "valor_interpolado": 33.18,
+        "valor_interpolado": 33.31,
         "AQ": "Mala"
       }
     },
@@ -685268,7 +685268,7 @@
       },
       "properties": {
         "nombre": "1904600010555",
-        "valor_interpolado": 29.93,
+        "valor_interpolado": 30.5,
         "AQ": "Aceptable"
       }
     },
@@ -685615,7 +685615,7 @@
       },
       "properties": {
         "nombre": "1904600010593",
-        "valor_interpolado": 33.92,
+        "valor_interpolado": 34.39,
         "AQ": "Mala"
       }
     },
@@ -685950,7 +685950,7 @@
       },
       "properties": {
         "nombre": "1904600010610",
-        "valor_interpolado": 27.63,
+        "valor_interpolado": 28.47,
         "AQ": "Aceptable"
       }
     },
@@ -686137,7 +686137,7 @@
       },
       "properties": {
         "nombre": "1904600010625",
-        "valor_interpolado": 33.85,
+        "valor_interpolado": 34.47,
         "AQ": "Mala"
       }
     },
@@ -686328,7 +686328,7 @@
       },
       "properties": {
         "nombre": "1904600010659",
-        "valor_interpolado": 34.07,
+        "valor_interpolado": 34.76,
         "AQ": "Mala"
       }
     },
@@ -686699,7 +686699,7 @@
       },
       "properties": {
         "nombre": "1904600010682",
-        "valor_interpolado": 28.11,
+        "valor_interpolado": 28.91,
         "AQ": "Aceptable"
       }
     },
@@ -686954,7 +686954,7 @@
       },
       "properties": {
         "nombre": "1904600010729",
-        "valor_interpolado": 33.48,
+        "valor_interpolado": 34.56,
         "AQ": "Mala"
       }
     },
@@ -687193,7 +687193,7 @@
       },
       "properties": {
         "nombre": "1904600010752",
-        "valor_interpolado": 36.6,
+        "valor_interpolado": 34.67,
         "AQ": "Mala"
       }
     },
@@ -687356,7 +687356,7 @@
       },
       "properties": {
         "nombre": "1904600010790",
-        "valor_interpolado": 21.92,
+        "valor_interpolado": 22.31,
         "AQ": "Aceptable"
       }
     },
@@ -687559,7 +687559,7 @@
       },
       "properties": {
         "nombre": "1904600010822",
-        "valor_interpolado": 34.15,
+        "valor_interpolado": 33.75,
         "AQ": "Mala"
       }
     },
@@ -687746,7 +687746,7 @@
       },
       "properties": {
         "nombre": "1904600010841",
-        "valor_interpolado": 35.5,
+        "valor_interpolado": 34.88,
         "AQ": "Mala"
       }
     },
@@ -688101,7 +688101,7 @@
       },
       "properties": {
         "nombre": "1904600010856",
-        "valor_interpolado": 34.67,
+        "valor_interpolado": 34.08,
         "AQ": "Mala"
       }
     },
@@ -688472,7 +688472,7 @@
       },
       "properties": {
         "nombre": "190460001088A",
-        "valor_interpolado": 29.97,
+        "valor_interpolado": 29.47,
         "AQ": "Aceptable"
       }
     },
@@ -688731,7 +688731,7 @@
       },
       "properties": {
         "nombre": "1904600010894",
-        "valor_interpolado": 31.11,
+        "valor_interpolado": 30.55,
         "AQ": "Aceptable"
       }
     },
@@ -688970,7 +688970,7 @@
       },
       "properties": {
         "nombre": "1904600010907",
-        "valor_interpolado": 35.13,
+        "valor_interpolado": 34.81,
         "AQ": "Mala"
       }
     },
@@ -689153,8 +689153,8 @@
       },
       "properties": {
         "nombre": "1904600010930",
-        "valor_interpolado": 28.44,
-        "AQ": "Aceptable"
+        "valor_interpolado": 33.54,
+        "AQ": "Mala"
       }
     },
     {
@@ -689344,7 +689344,7 @@
       },
       "properties": {
         "nombre": "1904600010945",
-        "valor_interpolado": 26.47,
+        "valor_interpolado": 29.26,
         "AQ": "Aceptable"
       }
     },
@@ -689583,7 +689583,7 @@
       },
       "properties": {
         "nombre": "190460001095A",
-        "valor_interpolado": 35.84,
+        "valor_interpolado": 35.86,
         "AQ": "Mala"
       }
     },
@@ -689942,7 +689942,7 @@
       },
       "properties": {
         "nombre": "1904600010979",
-        "valor_interpolado": 31.16,
+        "valor_interpolado": 31.17,
         "AQ": "Aceptable"
       }
     },
@@ -690237,7 +690237,7 @@
       },
       "properties": {
         "nombre": "1904600011017",
-        "valor_interpolado": 35.19,
+        "valor_interpolado": 35.62,
         "AQ": "Mala"
       }
     },
@@ -690540,7 +690540,7 @@
       },
       "properties": {
         "nombre": "1904600011021",
-        "valor_interpolado": 31.47,
+        "valor_interpolado": 31.66,
         "AQ": "Aceptable"
       }
     },
@@ -690811,7 +690811,7 @@
       },
       "properties": {
         "nombre": "1904600011040",
-        "valor_interpolado": 31.03,
+        "valor_interpolado": 31.42,
         "AQ": "Aceptable"
       }
     },
@@ -691130,7 +691130,7 @@
       },
       "properties": {
         "nombre": "1904600011055",
-        "valor_interpolado": 31.95,
+        "valor_interpolado": 32.43,
         "AQ": "Aceptable"
       }
     },
@@ -691373,7 +691373,7 @@
       },
       "properties": {
         "nombre": "190460001106A",
-        "valor_interpolado": 18.22,
+        "valor_interpolado": 18.62,
         "AQ": "Aceptable"
       }
     },
@@ -691640,7 +691640,7 @@
       },
       "properties": {
         "nombre": "1904600011074",
-        "valor_interpolado": 28.59,
+        "valor_interpolado": 29.1,
         "AQ": "Aceptable"
       }
     },
@@ -691883,7 +691883,7 @@
       },
       "properties": {
         "nombre": "1904600011089",
-        "valor_interpolado": 31.75,
+        "valor_interpolado": 32.36,
         "AQ": "Aceptable"
       }
     },
@@ -692138,8 +692138,8 @@
       },
       "properties": {
         "nombre": "1904600011093",
-        "valor_interpolado": 32.56,
-        "AQ": "Aceptable"
+        "valor_interpolado": 33.56,
+        "AQ": "Mala"
       }
     },
     {
@@ -692393,7 +692393,7 @@
       },
       "properties": {
         "nombre": "1904600011106",
-        "valor_interpolado": 24.89,
+        "valor_interpolado": 25.51,
         "AQ": "Aceptable"
       }
     },
@@ -692812,7 +692812,7 @@
       },
       "properties": {
         "nombre": "1904600011110",
-        "valor_interpolado": 21.17,
+        "valor_interpolado": 21.58,
         "AQ": "Aceptable"
       }
     },
@@ -692987,7 +692987,7 @@
       },
       "properties": {
         "nombre": "1904600011125",
-        "valor_interpolado": 27.44,
+        "valor_interpolado": 28.04,
         "AQ": "Aceptable"
       }
     },
@@ -693194,7 +693194,7 @@
       },
       "properties": {
         "nombre": "190460001113A",
-        "valor_interpolado": 28.07,
+        "valor_interpolado": 28.77,
         "AQ": "Aceptable"
       }
     },
@@ -693461,7 +693461,7 @@
       },
       "properties": {
         "nombre": "1904600011144",
-        "valor_interpolado": 28.34,
+        "valor_interpolado": 29.13,
         "AQ": "Aceptable"
       }
     },
@@ -693792,7 +693792,7 @@
       },
       "properties": {
         "nombre": "1904600011159",
-        "valor_interpolado": 35.8,
+        "valor_interpolado": 37.0,
         "AQ": "Mala"
       }
     },
@@ -694043,7 +694043,7 @@
       },
       "properties": {
         "nombre": "1904600011163",
-        "valor_interpolado": 34.78,
+        "valor_interpolado": 35.89,
         "AQ": "Mala"
       }
     },
@@ -694274,7 +694274,7 @@
       },
       "properties": {
         "nombre": "1904600011178",
-        "valor_interpolado": 30.46,
+        "valor_interpolado": 31.38,
         "AQ": "Aceptable"
       }
     },
@@ -694561,7 +694561,7 @@
       },
       "properties": {
         "nombre": "1904600011182",
-        "valor_interpolado": 33.19,
+        "valor_interpolado": 34.28,
         "AQ": "Mala"
       }
     },
@@ -694800,7 +694800,7 @@
       },
       "properties": {
         "nombre": "1904600011197",
-        "valor_interpolado": 31.88,
+        "valor_interpolado": 32.86,
         "AQ": "Aceptable"
       }
     },
@@ -695031,7 +695031,7 @@
       },
       "properties": {
         "nombre": "1904600011214",
-        "valor_interpolado": 23.53,
+        "valor_interpolado": 24.1,
         "AQ": "Aceptable"
       }
     },
@@ -695298,7 +695298,7 @@
       },
       "properties": {
         "nombre": "1904600011229",
-        "valor_interpolado": 27.72,
+        "valor_interpolado": 28.35,
         "AQ": "Aceptable"
       }
     },
@@ -695649,7 +695649,7 @@
       },
       "properties": {
         "nombre": "1904600011248",
-        "valor_interpolado": 30.05,
+        "valor_interpolado": 30.92,
         "AQ": "Aceptable"
       }
     },
@@ -695852,7 +695852,7 @@
       },
       "properties": {
         "nombre": "1904600011252",
-        "valor_interpolado": 35.37,
+        "valor_interpolado": 36.12,
         "AQ": "Mala"
       }
     },
@@ -696199,7 +696199,7 @@
       },
       "properties": {
         "nombre": "1904600011271",
-        "valor_interpolado": 35.84,
+        "valor_interpolado": 34.06,
         "AQ": "Mala"
       }
     },
@@ -696494,7 +696494,7 @@
       },
       "properties": {
         "nombre": "1904600011290",
-        "valor_interpolado": 34.13,
+        "valor_interpolado": 34.03,
         "AQ": "Mala"
       }
     },
@@ -696721,7 +696721,7 @@
       },
       "properties": {
         "nombre": "1904600011303",
-        "valor_interpolado": 35.17,
+        "valor_interpolado": 35.12,
         "AQ": "Mala"
       }
     },
@@ -697064,7 +697064,7 @@
       },
       "properties": {
         "nombre": "1904600011318",
-        "valor_interpolado": 30.11,
+        "valor_interpolado": 29.96,
         "AQ": "Aceptable"
       }
     },
@@ -697463,7 +697463,7 @@
       },
       "properties": {
         "nombre": "1904600011322",
-        "valor_interpolado": 30.42,
+        "valor_interpolado": 30.39,
         "AQ": "Aceptable"
       }
     },
@@ -697734,7 +697734,7 @@
       },
       "properties": {
         "nombre": "1904600011356",
-        "valor_interpolado": 34.58,
+        "valor_interpolado": 35.42,
         "AQ": "Mala"
       }
     },
@@ -698001,7 +698001,7 @@
       },
       "properties": {
         "nombre": "190460001138A",
-        "valor_interpolado": 32.28,
+        "valor_interpolado": 31.81,
         "AQ": "Aceptable"
       }
     },
@@ -698360,7 +698360,7 @@
       },
       "properties": {
         "nombre": "1904600011394",
-        "valor_interpolado": 30.89,
+        "valor_interpolado": 30.58,
         "AQ": "Aceptable"
       }
     },
@@ -698715,7 +698715,7 @@
       },
       "properties": {
         "nombre": "1904600011430",
-        "valor_interpolado": 33.68,
+        "valor_interpolado": 33.95,
         "AQ": "Mala"
       }
     },
@@ -699050,7 +699050,7 @@
       },
       "properties": {
         "nombre": "1904600011445",
-        "valor_interpolado": 33.29,
+        "valor_interpolado": 34.29,
         "AQ": "Mala"
       }
     },
@@ -699377,7 +699377,7 @@
       },
       "properties": {
         "nombre": "190460001145A",
-        "valor_interpolado": 35.29,
+        "valor_interpolado": 36.38,
         "AQ": "Mala"
       }
     },
@@ -699620,8 +699620,8 @@
       },
       "properties": {
         "nombre": "1904600011464",
-        "valor_interpolado": 28.84,
-        "AQ": "Aceptable"
+        "valor_interpolado": 34.98,
+        "AQ": "Mala"
       }
     },
     {
@@ -699839,7 +699839,7 @@
       },
       "properties": {
         "nombre": "1904600011479",
-        "valor_interpolado": 26.37,
+        "valor_interpolado": 30.4,
         "AQ": "Aceptable"
       }
     },
@@ -700034,7 +700034,7 @@
       },
       "properties": {
         "nombre": "1904600011500",
-        "valor_interpolado": 35.06,
+        "valor_interpolado": 34.78,
         "AQ": "Mala"
       }
     },
@@ -700209,7 +700209,7 @@
       },
       "properties": {
         "nombre": "1904600011515",
-        "valor_interpolado": 35.58,
+        "valor_interpolado": 35.42,
         "AQ": "Mala"
       }
     },
@@ -700588,7 +700588,7 @@
       },
       "properties": {
         "nombre": "190460001152A",
-        "valor_interpolado": 34.46,
+        "valor_interpolado": 34.52,
         "AQ": "Mala"
       }
     },
@@ -700915,7 +700915,7 @@
       },
       "properties": {
         "nombre": "1904600011534",
-        "valor_interpolado": 33.44,
+        "valor_interpolado": 33.64,
         "AQ": "Mala"
       }
     },
@@ -701182,7 +701182,7 @@
       },
       "properties": {
         "nombre": "1904600011549",
-        "valor_interpolado": 29.07,
+        "valor_interpolado": 29.24,
         "AQ": "Aceptable"
       }
     },
@@ -701433,7 +701433,7 @@
       },
       "properties": {
         "nombre": "1904600011568",
-        "valor_interpolado": 32.19,
+        "valor_interpolado": 32.93,
         "AQ": "Aceptable"
       }
     },
@@ -701640,7 +701640,7 @@
       },
       "properties": {
         "nombre": "1904600011572",
-        "valor_interpolado": 31.18,
+        "valor_interpolado": 32.05,
         "AQ": "Aceptable"
       }
     },
@@ -701891,7 +701891,7 @@
       },
       "properties": {
         "nombre": "1904600011587",
-        "valor_interpolado": 23.33,
+        "valor_interpolado": 23.93,
         "AQ": "Aceptable"
       }
     },
@@ -702258,7 +702258,7 @@
       },
       "properties": {
         "nombre": "1904600011591",
-        "valor_interpolado": 20.96,
+        "valor_interpolado": 21.39,
         "AQ": "Aceptable"
       }
     },
@@ -702409,7 +702409,7 @@
       },
       "properties": {
         "nombre": "1904600011604",
-        "valor_interpolado": 35.37,
+        "valor_interpolado": 36.35,
         "AQ": "Mala"
       }
     },
@@ -702616,7 +702616,7 @@
       },
       "properties": {
         "nombre": "1904600011619",
-        "valor_interpolado": 39.42,
+        "valor_interpolado": 40.36,
         "AQ": "Mala"
       }
     },
@@ -702919,7 +702919,7 @@
       },
       "properties": {
         "nombre": "1904600011657",
-        "valor_interpolado": 27.02,
+        "valor_interpolado": 27.15,
         "AQ": "Aceptable"
       }
     },
@@ -703214,7 +703214,7 @@
       },
       "properties": {
         "nombre": "1904600011661",
-        "valor_interpolado": 25.47,
+        "valor_interpolado": 25.82,
         "AQ": "Aceptable"
       }
     },
@@ -703509,7 +703509,7 @@
       },
       "properties": {
         "nombre": "1904600011727",
-        "valor_interpolado": 31.41,
+        "valor_interpolado": 30.78,
         "AQ": "Aceptable"
       }
     },
@@ -703788,7 +703788,7 @@
       },
       "properties": {
         "nombre": "1904600011746",
-        "valor_interpolado": 30.25,
+        "valor_interpolado": 30.51,
         "AQ": "Aceptable"
       }
     },
@@ -704067,7 +704067,7 @@
       },
       "properties": {
         "nombre": "1904600011750",
-        "valor_interpolado": 29.07,
+        "valor_interpolado": 29.41,
         "AQ": "Aceptable"
       }
     },
@@ -704270,8 +704270,8 @@
       },
       "properties": {
         "nombre": "1904600011765",
-        "valor_interpolado": 27.17,
-        "AQ": "Aceptable"
+        "valor_interpolado": 37.34,
+        "AQ": "Mala"
       }
     },
     {
@@ -704393,7 +704393,7 @@
       },
       "properties": {
         "nombre": "1904600010663",
-        "valor_interpolado": 34.8,
+        "valor_interpolado": 35.61,
         "AQ": "Mala"
       }
     },
@@ -704652,7 +704652,7 @@
       },
       "properties": {
         "nombre": "1904600010926",
-        "valor_interpolado": 33.38,
+        "valor_interpolado": 33.14,
         "AQ": "Mala"
       }
     },
@@ -704947,8 +704947,8 @@
       },
       "properties": {
         "nombre": "1904600010339",
-        "valor_interpolado": 33.0,
-        "AQ": "Aceptable"
+        "valor_interpolado": 33.53,
+        "AQ": "Mala"
       }
     },
     {
@@ -705178,7 +705178,7 @@
       },
       "properties": {
         "nombre": "1904600011267",
-        "valor_interpolado": 36.77,
+        "valor_interpolado": 37.43,
         "AQ": "Mala"
       }
     },
@@ -706032,7 +706032,7 @@
       },
       "properties": {
         "nombre": "1904600010447",
-        "valor_interpolado": 34.68,
+        "valor_interpolado": 33.8,
         "AQ": "Mala"
       }
     },
@@ -706295,7 +706295,7 @@
       },
       "properties": {
         "nombre": "1904600011498",
-        "valor_interpolado": 26.57,
+        "valor_interpolado": 26.26,
         "AQ": "Aceptable"
       }
     },
